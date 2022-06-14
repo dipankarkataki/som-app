@@ -1,11 +1,11 @@
-import {FaTrashAlt, FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
+import {FaTrashAlt, FaEnvelope, FaPhoneAlt, FaPlus} from 'react-icons/fa';
 
 const ManageUser = () => {
     return (
         <>
             <div className="manage-user-breadcrumb">
                 <p>Manage Users</p>
-                <button className="btn btn-sm custom-btn">ADD NEW</button>
+                <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#manageUserModal">ADD NEW</button>
             </div>
             <div className="content-area">
                 <div className="row">
@@ -244,6 +244,45 @@ const ManageUser = () => {
                         </div>
                     </div>
                 </div>
+                <div className="modal" id="manageUserModal">
+                <div className="modal-dialog modal-lg">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title"> Add New User</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div className="modal-body">
+                            <form class="form-horizontal">
+                                <div className="row">
+                                    <div className="col-md-6 col-sm-12">
+                                        <div className="mb-3">
+                                            <input type="text" className="form-control" id="dealerUsername" placeholder="Username" />
+                                        </div> 
+                                        <div className="mb-3">
+                                            <textarea className="form-control" rows="8" placeholder='Description'></textarea>
+                                        </div> 
+                                        <div className="mb-3">
+                                            <input type="text" className="form-control" id="location" placeholder="Location" />
+                                        </div>  
+                                    </div>
+                                    <div className="col-md-6 col-sm-12">
+                                        <h6 className="mb-3">Images (Optional)</h6>
+                                        <div className="mb-3 image-uploader">
+                                            <FaPlus />
+                                        </div>
+                                        <div className="mb-3">
+                                            <textarea className="form-control" rows="6" placeholder='Other Details'></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div className="modal-footer">
+                            <button type="button" className="btn btn-danger" style={{background: '#e54d07'}} data-bs-dismiss="modal">Save</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </>
     );
