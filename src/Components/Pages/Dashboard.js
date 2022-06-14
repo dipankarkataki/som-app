@@ -1,4 +1,4 @@
-import {FaUsers, FaRegHandshake, FaAddressBook, FaBoxes, FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
+import {FaUsers, FaRegHandshake, FaAddressBook, FaBoxes, FaEnvelope, FaPhoneAlt, FaStar} from 'react-icons/fa';
 
 
 const  Dashboard = () =>{
@@ -125,10 +125,17 @@ const  Dashboard = () =>{
                                     <h5 className="card-title text-center">Last 3 New Dealers</h5>
                                     <div className="user-info-area">
                                         <div className="user-pic">
-                                            <img src="Images/pic1.jpg" alt="avatar" />
+                                            <img src="Images/1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
-                                            <h5>Jhon Doe</h5>
+                                            <h5>Serines Dealers & Traders</h5>
+                                            <p>
+                                                <span>Location: Ganeshguri</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>
@@ -142,9 +149,16 @@ const  Dashboard = () =>{
                                     <div className="user-info-area">
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
-                                            <h5>Jhon Doe</h5>
+                                            <h5>Serines Dealers & Traders</h5>
+                                            <p>
+                                                <span>Location: Ganeshguri</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>
@@ -158,9 +172,16 @@ const  Dashboard = () =>{
                                     <div className="user-info-area">
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
-                                            <h5>Jhon Doe</h5>
+                                            <h5>Serines Dealers & Traders</h5>
+                                            <p>
+                                                <span>Location: Ganeshguri</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>
@@ -181,9 +202,16 @@ const  Dashboard = () =>{
                                     <div className="user-info-area">
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
                                             <h5>Jhon Doe</h5>
+                                            <p>
+                                                <span>Category: Architechture</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>
@@ -197,9 +225,16 @@ const  Dashboard = () =>{
                                     <div className="user-info-area">
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
                                             <h5>Jhon Doe</h5>
+                                            <p>
+                                                <span>Category: Architechture</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>
@@ -213,9 +248,16 @@ const  Dashboard = () =>{
                                     <div className="user-info-area">
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
+                                            <div className="user-rating">
+                                                <span><FaStar/></span>
+                                                <span>4.5</span>
+                                            </div>
                                         </div>
                                         <div className="user-details">
                                             <h5>Jhon Doe</h5>
+                                            <p>
+                                                <span>Category: Architechture</span>
+                                            </p>
                                             <p>
                                                 <FaEnvelope />&nbsp;&nbsp;
                                                 <span>example@xyz.com</span>

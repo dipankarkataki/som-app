@@ -132,6 +132,10 @@ code {
   padding-right: 10px;
 }
 
+.list-user-card .user-info-area{
+  margin-bottom: 28px;
+}
+
 .user-info-area{
   display: flex;
   flex-direction: row;
@@ -142,12 +146,26 @@ code {
 }
 
 .user-info-area .user-pic img{
-  width:60px;
+  width:70px;
   border-radius: 10px;
 }
 
 .user-info-area .user-pic{
   margin-right: 5px;
+}
+.user-info-area .user-pic .user-rating{
+  background-color: #e54d07;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 16%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -10px;
+  width: 50%;
+  margin-left: 18px;
 }
 .user-info-area .user-details{
   margin-left: 5px;
@@ -162,4 +180,24 @@ code {
   font-size: 12px;
   color: grey;
 }
+
+
+
+/* My Media Queries */
+
+/* @media only screen and (min-width: 992px) and (max-width: 1999px) {
+  .card-icon-area{
+    background-color: rgb(230, 77, 6);
+    border-radius: 50%;
+    padding: 11px 13px;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+  }
+  .card-icon-area svg{
+    font-size: 25px;
+    color: white;
+  }
+} */
+
 
