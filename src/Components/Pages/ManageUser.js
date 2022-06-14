@@ -1,6 +1,13 @@
 const ManageUser = () => {
     return (
-        <h1>Hello from Manage User</h1>
+        <>
+            <div className="manage-user-breadcrumb">
+                <p>Manage Users</p>
+                <button className="btn btn-sm custom-btn">ADD NEW</button>
+            </div>
+            <div className="content-area">
+            </div>
+        </>
     );
 }
 

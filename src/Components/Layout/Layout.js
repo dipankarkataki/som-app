@@ -10,7 +10,10 @@ const Layout = () =>{
                 </div>
                 <div className="col-md-10">
                     <nav className="navbar navbar-expand-sm navbar-custom">
-                        
+                        <div className="top-nav-menu">
+                            <img  src="Images/pic3.jpg" alt="avatar" />
+                            <h6>Admin</h6>
+                        </div>
                     </nav>
                     <div className="main-content">
                         <Outlet />

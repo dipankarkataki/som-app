@@ -127,7 +127,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
@@ -150,7 +150,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
@@ -173,7 +173,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
@@ -203,7 +203,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
@@ -226,7 +226,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
@@ -249,7 +249,7 @@ const  Dashboard = () =>{
                                         <div className="user-pic">
                                             <img src="Images/pic1.jpg" alt="avatar" />
                                             <div className="user-rating">
-                                                <span><FaStar/></span>
+                                                <span><FaStar/></span>&nbsp;
                                                 <span>4.5</span>
                                             </div>
                                         </div>
