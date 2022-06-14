@@ -108,10 +108,58 @@ code {
 
 .list-user-card{
   margin-left:30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #cfc9c9;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .list-user-card,.list-partner-card,.list-dealer-card .card-title{
   color:#646464;
 }
+
+.list-dealer-card{
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #cfc9c9;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .list-partner-card{
   margin-right:30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #cfc9c9;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+.user-info-area{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(233, 232, 232);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top:20px;
+}
+
+.user-info-area .user-pic img{
+  width:60px;
+  border-radius: 10px;
+}
+
+.user-info-area .user-pic{
+  margin-right: 5px;
+}
+.user-info-area .user-details{
+  margin-left: 5px;
+}
+.user-info-area .user-details h5{
+  margin-bottom: 0px;
+  color: #000;
+}
+.user-info-area .user-details p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: grey;
+}
+
