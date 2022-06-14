@@ -59,7 +59,7 @@ code {
   flex-direction: row;
   align-items: center;
   margin-left: auto;
-  margin-right:20px;
+  margin-right:25px;
 }
 
 .navbar-custom .top-nav-menu img{
@@ -198,20 +198,76 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 30px;
+  margin-bottom: 1rem;
 }
 .manage-user-breadcrumb p{
   font-size:30px;
   margin-bottom: 0px;
+  
 }
 .manage-user-breadcrumb .custom-btn{
   background-color: rgb(230, 77, 6);
   color:white;
-  padding-left:20px;
-  padding-right:20px;
+  padding-left:30px;
+  padding-right:30px;
   border-radius: 0px;
   font-weight: 500;
 }
 
+.content-area .manage-user-card{
+  margin-left:30px;
+  margin-right:30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #cfc9c9;
+}
+
+.manage-user-card .manage-user-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.manage-user-card .manage-user-content img{
+  width: 80px;
+  border-radius: 10px;
+}
+
+.manage-user-content-details h5{
+  margin-bottom: 0px;
+  margin-top:5px;
+  color: #000;
+}
+.manage-user-content-details p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 12px;
+  color: grey;
+}
+.manage-user-content-details .referal-code{
+  color:black;
+  font-weight: 500;
+  background-color: aliceblue;
+  width: 80%;
+  margin-top:10px;
+  text-align: center;
+  border-radius:10px;
+}
+
+.manage-user-status-details{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top:20px;
+  align-items: center;
+}
+.manage-user-status-details .form-switch{
+  margin-top:3px;
+}
+.manage-user-status-details button{
+  color:black;
+  font-size:12px;
+  font-weight: bold;
+}
 
 
 /* My Media Queries */
