@@ -46,6 +46,7 @@ code {
 .nav-links li a{
   text-decoration: none;
   color:white;
+  font-size:14px;
 }
 
 .navbar-custom{
@@ -199,7 +200,7 @@ code {
   flex-direction: row;
   justify-content: space-between;
   margin-left: 30px;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .manage-user-breadcrumb p{
   font-size:30px;
@@ -267,6 +268,21 @@ code {
   color:black;
   font-size:12px;
   font-weight: bold;
+}
+
+.manage-user-content-details .user-rating{
+  background-color: #e54d07;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 16%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: -25px;
+  width: 20%;
+  margin-left: 85px;
 }
 
 

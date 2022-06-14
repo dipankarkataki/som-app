@@ -20,6 +20,9 @@ const Sidebar = () => {
                     <li className="mt-1">
                         <Link to="/manage-user">Manage User</Link>
                     </li>
+                    <li className="mt-1">
+                        <Link to="/manage-dealer">Manage Dealer</Link>
+                    </li>
                 </ul>
             </nav>
         </div>
