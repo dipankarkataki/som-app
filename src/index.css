@@ -65,4 +65,53 @@ code {
   font-size:30px;
   font-weight:400;
   color: #000;
+  margin-left:30px;
+}
+
+.content-area .dashboard-card{
+  margin-left:30px;
+  margin-right:30px;
+  border-radius: 10px;
+  box-shadow: 0px 1px 5px #cfc9c9;
+}
+.content-area .dashboard-card .card-body{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-icon-area{
+  background-color: rgb(230, 77, 6);
+  border-radius: 50%;
+  padding: 15px 15px;
+  height: 60px;
+  width: 60px;
+  margin-right:5px;
+}
+.card-icon-area svg{
+  font-size: 30px;
+  color: white;
+}
+.card-content-area {
+  margin-left:5px
+}
+.card-content-area p{
+  margin-bottom: 0px;
+  font-size: 25px;
+  font-weight: 500;
+  color: #626161;
+  margin-left:5px;
+}
+.card-content-area h1{
+  margin-bottom: 0px;
+}
+
+.list-user-card{
+  margin-left:30px;
+}
+.list-user-card,.list-partner-card,.list-dealer-card .card-title{
+  color:#646464;
+}
+.list-partner-card{
+  margin-right:30px;
 }

@@ -8,48 +8,83 @@ const  Dashboard = () =>{
             </div>
             <div className="content-area">
                 <div className="row">
-                    <div className="col-md-3">
-                        <div className="card">
+                    <div className="col-md-3 col-sm-6 col-12">
+                        <div className="card dashboard-card">
                             <div className="card-body">
-                                <span className="user-icon">
+                                <div className="card-icon-area">
                                     <FaUsers/>
-                                </span>
-                                This is some text within a card body.
+                                </div>
+                                <div className="card-content-area">
+                                    <p>Users</p>
+                                    <h1>1000</h1>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3">
-                        <div className="card">
+                    <div className="col-md-3 col-sm-6 col-12">
+                        <div className="card dashboard-card">
                                 <div className="card-body">
-                                    <span className="hand-shake-icon">
+                                    <div className="card-icon-area">
                                         <FaRegHandshake/>
-                                    </span>
-                                    This is some text within a card body.
+                                    </div>
+                                    <div className="card-content-area">
+                                        <p>Partners</p>
+                                        <h1>1000</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    <div className="col-md-3">
-                        <div className="card">
+                    <div className="col-md-3 col-sm-6 col-12">
+                        <div className="card dashboard-card">
                                 <div className="card-body">
-                                    <span className="dealer-icon">
+                                    <div className="card-icon-area">
                                         <FaAddressBook/>
-                                    </span>
-                                    This is some text within a card body.
+                                    </div>
+                                    <div className="card-content-area">
+                                        <p>Dealers</p>
+                                        <h1>1000</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    <div className="col-md-3">
-                        <div className="card">
+                    <div className="col-md-3 col-sm-6 col-12">
+                        <div className="card dashboard-card">
                                 <div className="card-body">
-                                    <span className="product-icon">
+                                    <div className="card-icon-area">
                                         <FaBoxes/>
-                                    </span>
-                                    This is some text within a card body.
+                                    </div>
+                                    <div className="card-content-area">
+                                        <p>Products</p>
+                                        <h1>1000</h1>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                 </div>
-                
+                <div className="row mt-4">
+                    <div className="col-md-4 col-sm-12">
+                        <div className="card list-user-card">
+                            <div className="card-body">
+                                <h5 class="card-title text-center">Last 3 New Users</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-12">
+                        <div className="card list-dealer-card">
+                                <div className="card-body">
+                                    <h5 class="card-title text-center">Last 3 New Dealers</h5>
+                                </div>
+                            </div>
+                        </div>
+                    <div className="col-md-4 col-sm-12">
+                        <div className="card list-partner-card">
+                                <div className="card-body">
+                                    <h5 class="card-title text-center">Last 3 New Partners</h5>
+                                </div>
+                            </div>
+                        </div>
+                </div>
             </div>
         </>
     );
