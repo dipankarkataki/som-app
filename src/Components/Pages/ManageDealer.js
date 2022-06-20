@@ -4,7 +4,7 @@ const ManageDealer = () => {
         <>
             <div className="manage-user-breadcrumb">
                 <p>Manage Dealers</p>
-                <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#manageDealerModal">ADD NEW</button>
+                {/* <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#manageDealerModal">ADD NEW</button> */}
             </div>
             <div className="content-area">
                 <div className="row">
@@ -35,7 +35,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -69,7 +69,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -103,7 +103,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -137,7 +137,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -173,7 +173,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -207,7 +207,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -241,7 +241,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -275,7 +275,7 @@ const ManageDealer = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -286,7 +286,7 @@ const ManageDealer = () => {
                 </div>
             </div>
             <div className="modal" id="manageDealerModal">
-                <div className="modal-dialog modal-lg">
+                <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
                             <h5 className="modal-title"> Add New Dealer</h5>

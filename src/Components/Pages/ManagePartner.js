@@ -4,7 +4,7 @@ const ManagePartner = () => {
         <>
             <div className="manage-user-breadcrumb">
                 <p>Manage Partner</p>
-                <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#managePartnerModal">ADD NEW</button>
+                {/* <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#managePartnerModal">ADD NEW</button> */}
             </div>
             <div className="content-area">
                 <div className="row">
@@ -35,7 +35,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -70,7 +70,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -105,7 +105,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -140,7 +140,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -177,7 +177,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -212,7 +212,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -247,7 +247,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>
@@ -282,7 +282,7 @@ const ManagePartner = () => {
 
                                     <div className="manage-user-status-details">
                                         <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked />
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
                                         </div>
                                         <button class="btn btn-default btn-sm">VIEW DETAILS</button>
                                     </div>

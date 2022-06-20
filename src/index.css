@@ -14,6 +14,383 @@ code {
 
 /* My Css */
 
+.main-wrapper{
+  height:100%;
+  width:100%;
+}
+
+/******************* Mobile Menu***********************/
+.mobile-menu{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgb(230, 230, 230);
+  padding:10px 20px;
+}
+.mobile-menu .top-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.mobile-menu .toggle-menu-wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-menu .toggle-menu-wrapper svg{
+  font-size:30px;
+  font-weight: 600;
+}
+.mobile-menu .toggle-menu-wrapper .brand-name{
+  font-size:25px;
+  margin-left:20px;
+}
+.mobile-menu .top-nav-admin-profile-photo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mobile-menu .top-nav-admin-profile-photo img{
+  max-width:40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.mobile-menu .top-nav-admin-profile-photo h6{
+  font-weight: 600;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.mobile-menu-wrapper .sidebar-menu {
+  background-color: rgb(50, 50, 77);
+  width:300px;
+  height:100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  position: absolute;
+  z-index:1000;
+  box-shadow: 3px 2px 10px rgb(73, 73, 73);
+}
+
+.mobile-menu-wrapper .sidebar-menu nav{
+  padding:20px;
+}
+.mobile-menu-wrapper .sidebar-menu nav ul{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.mobile-menu-wrapper .sidebar-menu nav ul li{
+  padding:5px;
+  transition: 0.5s;
+  width:70%;
+}
+
+.mobile-menu-wrapper .sidebar-menu nav ul li:hover{
+  background-color: rgb(55, 55, 90);
+  padding:10px;
+  width:100%;
+  border-radius: 5px;
+}
+
+.mobile-menu-wrapper .sidebar-menu nav ul li a{ 
+  text-decoration:none;
+  color:white;
+  font-size:16px;
+}
+
+.mobile-menu-wrapper .main-content-area {
+  padding:20px;
+}
+
+.mobile-menu .top-nav-dropdown{
+  position:absolute;
+  left:75%;
+  width:200px;
+  margin-top:5px;
+}
+.mobile-menu .top-nav-dropdown nav ul{
+  list-style: none;
+  padding-left:4px
+}
+.mobile-menu .top-nav-dropdown nav ul li{
+ padding:10px;
+ border-radius:10px;
+ transition: 0.5s;
+}
+.mobile-menu .top-nav-dropdown nav ul li:hover{
+  background-color: #ffffff;
+  box-shadow: 0px 2px 10px rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+/*************** Mobile Menu End*******************/
+
+
+/*************** Desktop Menu Start **************/
+
+
+.desktop-wrapper{
+  display:flex;
+  flex-direction: row;
+}
+.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left:20px;
+  padding:20px
+}
+
+.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper svg{
+  font-size:30px;
+  font-weight: 600;
+  color:white;
+}
+.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper .brand-name{
+  font-size:25px;
+  margin-left:20px;
+  color:white
+}
+.desktop-wrapper .desktop-sidebar{
+  background-color: rgb(50, 50, 77);
+  height:100vh;
+  width:300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.desktop-wrapper .desktop-sidebar nav{
+  padding:5px;
+}
+.desktop-wrapper .desktop-sidebar nav ul{
+  list-style: none;
+}
+
+.desktop-wrapper .desktop-sidebar nav ul li{
+  padding:5px;
+  transition: 0.5s;
+}
+
+.desktop-wrapper .desktop-sidebar nav ul li:hover{
+  background-color: rgb(64, 64, 92);
+  border-radius: 5px;
+}
+
+.desktop-wrapper .desktop-sidebar nav ul li a{ 
+  text-decoration:none;
+  color:white;
+  font-size:16px;
+}
+.desktop-wrapper  .desktop-content{
+  width:100%;
+  height:100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+.desktop-wrapper .desktop-content .top-navigation{
+  background-color: white;
+  padding:10px;
+  box-shadow: 2px 0px 5px rgb(236, 236, 236);
+}
+
+.desktop-wrapper .desktop-content .top-navigation .profile-area{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.desktop-wrapper .desktop-content .top-navigation .profile-area img{
+  max-width:40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.desktop-wrapper .desktop-content .top-navigation .profile-area h6{
+  font-weight: 600;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.desktop-wrapper .desktop-content .desktop-content-area{
+  padding:20px;
+}
+
+
+/******************* Desktop Menu End***************************/
+
+.sidebar-active{
+  margin-left:0px;
+  transition:0.5s;
+}
+.sidebar-deactive{
+  margin-left:-500px;
+  transition:0.5s;
+}
+
+.link-active{
+  background-color: rgb(81, 81, 131);
+  border-radius: 5px;
+}
+.top-nav-dropdown-active{
+  display: block;
+}
+.top-nav-dropdown-deactive{
+  display: none;
+}
+
+
+
+
+
+/****************** Dashboard Css**************************/
+.overview-number-cards .card{
+  margin-left:30px;
+  margin-right:30px;
+}
+.overview-number-cards .card-body{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.overview-number-cards .card-icon{
+  background-color: rgb(230, 77, 6);
+  border-radius:50%;
+  height:80px;
+  width:80px;
+  margin-left:30px;
+}
+.overview-number-cards .card-icon svg{
+  color:white;
+  font-size:40px;
+  margin:20px;
+}
+
+.overview-number-cards .card-content{
+  margin-right:30px;
+}
+
+.overview-number-cards .card-content p{
+  font-size:25px;
+  font-weight: 500;
+  color:rgb(87, 85, 85);
+  margin-left:5px;
+  margin-bottom:0px;
+}
+.overview-number-cards .card-content h3{
+  font-size:40px;
+  font-weight: 500;
+}
+
+.overview-last-new-added-user-card{
+  margin-left:30px;
+  margin-right:30px;
+}
+
+.overview-last-new-added-user-card .header{
+  text-align: center;
+  font-size:20px;
+  font-weight: 500;
+  color:rgb(87, 85, 85);
+}
+.overview-last-new-added-user-card .card-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border:1px solid rgb(228, 227, 227);
+  border-radius: 5px;
+  padding:5px 10px;
+  align-items: center;
+}
+.overview-last-new-added-user-card .card-content .image-area img{
+  height:60px;
+  border-radius: 5px;
+}
+.overview-last-new-added-user-card .card-content .image-area p{
+  background-color: rgb(230, 77, 6);
+  color:white;
+  font-size:10px;
+  font-weight: bold;
+  padding:5px;
+  text-align: center;
+  border-radius:50px;
+  position: relative;
+  z-index:10;
+  margin-top:-10px;
+  margin-left:10px;
+  margin-bottom: 0px;
+  line-height: 10px;
+  width:70%
+}
+.overview-last-new-added-user-card .card-content .description{
+  margin-left:10px;
+}
+.overview-last-new-added-user-card .card-content .description h6{
+  margin-bottom:0px;
+}
+.overview-last-new-added-user-card .card-content .description p{
+  margin-bottom:0px;
+}
+
+.overview-last-new-added-user-card .card-content .description p, .email, .phone{
+  font-size:13px;
+  font-weight: 400;
+  color:rgb(105, 104, 104);
+}
+
+
+
+
+
+/***************** Media Queries Start **********************/
+
+
+@media only screen and (min-width:992px){
+  .overview-number-cards .card{
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .overview-last-new-added-user-card{
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .overview-last-new-added-user-card .card-content .description h6{
+    font-size:15px;
+  }
+}
+
+
+
+@media only screen and (max-width:1999px){
+  .mobile-menu-wrapper{
+    display: block;
+  }
+  .desktop-menu{
+    display: none;
+  }
+}
+@media only screen and (min-width:1200px){
+  .mobile-menu-wrapper{
+    display: none;
+  }
+  .desktop-menu{
+    display:block;
+  }
+}
+
+
+/*
 .sidebar{
   height:100vh;
 }
@@ -74,7 +451,7 @@ code {
   padding: 20px;
   height:100vh;
 }
-
+*/
 .breadcrumb{
   font-size:30px;
   font-weight:400;
@@ -308,8 +685,7 @@ code {
 
 
 .manage-product-card .manage-product-content img{
-  /* width: 275px;
-  height: 150px; */
+
   border-radius: 10px;
 }
 
@@ -341,35 +717,85 @@ code {
 }
 
 
-/* My Media Queries */
-
-@media only screen  and (min-width: 1030px) and (max-width: 1366px)  {
-  .card-icon-area {
-    padding: 10px 15px;
-    height: 50px;
-    width: 50px;
-  }
-  .card-icon-area svg {
-      font-size: 22px;
-      color: white;
-  }
-  .card-content-area p {
-      font-size: 18px;
-  }
-  .card-content-area h1 {
-      margin-bottom: 0px;
-      font-size: 30px;
-  }
-  .user-info-area .user-pic img {
-      width: 60px;
-  }
-  .user-info-area .user-details h5 {
-      font-size: 16px;
-  }
-  .user-info-area .user-pic .user-rating {
-      width: 65%;
-      margin-left: 12px;
-  }
+/********************* Manage Event ***********************/
+.event-list{
+  display: flex;
+  flex-direction: row;
+}
+.event-list img{
+  max-height:120px;
+  border-radius:10px
+}
+.event-list .event-description{
+  margin-left:20px;
+}
+.event-list .event-description .date-status-div{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+.event-list .event-description .date-status-div .date{
+  display:flex;
+  flex-direction: row;
+}
+.event-list .event-description .date-status-div .date span:nth-child(1){
+ font-size:30px;
+ font-weight:bold;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2){
+  margin-left:10px;
+  margin-top:5px;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2) .month{
+  font-size:13px;
+  margin-bottom:0px;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2) .day{
+  font-size:13px;
+  margin-bottom:0px;
+}
 
+.event-list .event-description .date-status-div .status p{
+  font-size:15px;
+  margin-bottom:0px;
+  color:rgb(87, 85, 85);
+  font-weight: 500;
+}
+.event-list .event-description .date-status-div .status p:nth-child(2){
+  font-size:15px;
+  margin-bottom:0px;
+  color:rgb(12, 12, 12);
+  font-weight: 500;
+}
+.event-list .event-description p{
+  font-size:15px;
+  margin-bottom:0px;
+}
+.event-list .event-description .posted-location-delete-event-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc p{
+  font-size:15px;
+  color:#626161;
+}
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc p:nth-child(2){
+  margin-left: 20px;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span{
+  margin-left: 20px;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(2){
+  color:red;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(3){
+  color:red;
+}

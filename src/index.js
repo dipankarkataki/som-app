@@ -9,6 +9,10 @@ import ManageUser from './Components/Pages/ManageUser';
 import ManageDealer from './Components/Pages/ManageDealer';
 import ManagePartner from './Components/Pages/ManagePartner';
 import ManageProduct from './Components/Pages/ManageProduct';
+import ManageEvent from './Components/Pages/ManageEvent';
+import ManagePartnerWork from './Components/Pages/ManagePartnerWork';
+import TradingAdvice from './Components/Pages/TradingAdvice';
+import UpcomingProjects from './Components/Pages/UpcomingProjects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -22,6 +26,10 @@ root.render(
           <Route path="manage-dealer" element={<ManageDealer/>} />
           <Route path="manage-partner" element={<ManagePartner/>} />
           <Route path="manage-product" element={<ManageProduct/>} />
+          <Route path="manage-event" element={<ManageEvent/>} />
+          <Route path="manage-partner-work" element={<ManagePartnerWork/>} />
+          <Route path="trading-advice" element={<TradingAdvice/>} />
+          <Route path="upcoming-projects" element={<UpcomingProjects/>} />
         </Route>
       </Routes>
     </BrowserRouter>
