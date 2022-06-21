@@ -1,16 +1,16 @@
-import {FaTrashAlt, FaPlus} from 'react-icons/fa';
+import {FaTrashAlt} from 'react-icons/fa';
 
 const ManageProduct = () => {
     return (
         <>
-            <div className="manage-user-breadcrumb">
+            <div className="page-header mb-3">
                 <p>Manage Product</p>
-                {/* <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#manageProductModal">ADD NEW</button> */}
+                <button type="button" data-bs-toggle="modal" data-bs-target="#manageProductModal" className='btn common-button'>ADD NEW</button>
             </div>
             <div className="content-area">
                 <div className="row">
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -35,8 +35,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -61,8 +61,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -87,8 +87,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -113,10 +113,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row mt-3">
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -141,8 +139,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -167,34 +165,8 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
-                            <div className="card-body">
-                                <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
-                                </div>
-                                <div className="manage-product-content-details pt-2">
-                                    <h5>Acel Electronics</h5>
-                                    <p >
-                                        Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    </p>
-
-                                    <div className="manage-product-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                            <FaTrashAlt style={{color:'red'}}/>
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -241,9 +213,10 @@ const ManageProduct = () => {
                                     </div>
                                     <div className="col-md-6 col-sm-12">
                                         <h6 className="mb-3">Images (Optional)</h6>
-                                        <div className="mb-3 image-uploader">
+                                        <input type="file" name="productImage" className='form-control'/>
+                                        {/* <div className="mb-3 image-uploader">
                                             <FaPlus />
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </form>

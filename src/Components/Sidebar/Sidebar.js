@@ -1,4 +1,5 @@
 import {Link, useLocation} from 'react-router-dom';
+// import {FaTimes} from 'react-icons/fa';
 
 const Sidebar = () => {
     const location = useLocation();
@@ -12,6 +13,9 @@ const Sidebar = () => {
         
         <nav>
             <ul>
+                <li>
+                    <h3 className='brand-name'>SOM</h3>
+                </li>
                 <li className={splitLocation[1] === "dashboard" ? "link-active" : ""}>
                     <Link to="/dashboard" className='active'>Dashboard</Link>
                 </li>

@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'PT Serif', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,228 +13,142 @@ code {
 /* My Css */
 
 .main-wrapper{
+  display: flex;
+  flex-direction: row;
   height:100%;
   width:100%;
 }
 
-/******************* Mobile Menu***********************/
-.mobile-menu{
-  background-color: #fff;
-  box-shadow: 0px 0px 5px rgb(230, 230, 230);
-  padding:10px 20px;
-}
-.mobile-menu .top-nav{
-  display: flex;
+.page-header{
+  display:flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   flex-wrap: wrap;
-}
-.mobile-menu .toggle-menu-wrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
 }
-
-.mobile-menu .toggle-menu-wrapper svg{
-  font-size:30px;
-  font-weight: 600;
+.common-button{
+  background-color: rgb(230, 77, 6);
+  color:white;
+  border-radius:0px;
+  padding-left:20px;
+  padding-right: 20px;
 }
-.mobile-menu .toggle-menu-wrapper .brand-name{
-  font-size:25px;
-  margin-left:20px;
-}
-.mobile-menu .top-nav-admin-profile-photo{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
+.page-header button:hover{
+  color:white;
+  box-shadow: 0px 5px 10px rgb(212, 206, 206);
 }
 
-.mobile-menu .top-nav-admin-profile-photo img{
-  max-width:40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
+/************************ Sidebar ******************************/
 
-.mobile-menu .top-nav-admin-profile-photo h6{
-  font-weight: 600;
-  margin-right: 10px;
-  margin-top:10px;
-}
-
-.mobile-menu-wrapper .sidebar-menu {
+.sidebar-menu {
   background-color: rgb(50, 50, 77);
   width:300px;
   height:100vh;
   overflow-x: hidden;
   overflow-y: auto;
   scroll-behavior: smooth;
-  position: absolute;
-  z-index:1000;
-  box-shadow: 3px 2px 10px rgb(73, 73, 73);
 }
 
-.mobile-menu-wrapper .sidebar-menu nav{
-  padding:20px;
+.sidebar-menu nav{
+  padding:15px;
 }
-.mobile-menu-wrapper .sidebar-menu nav ul{
+.sidebar-menu nav ul{
   padding-left: 0px;
   list-style: none;
 }
 
-.mobile-menu-wrapper .sidebar-menu nav ul li{
-  padding:5px;
-  transition: 0.5s;
-  width:70%;
+.sidebar-menu nav ul li:nth-child(1){
+  color:#ffffff;
+  text-align: center;
+  margin-bottom:25px;
 }
 
-.mobile-menu-wrapper .sidebar-menu nav ul li:hover{
+.sidebar-menu nav ul li:nth-child(n + 2){
+  padding:5px;
+  transition: 0.5s;
+}
+
+.sidebar-menu nav ul li:nth-child(n + 2):hover{
   background-color: rgb(55, 55, 90);
   padding:10px;
   width:100%;
   border-radius: 5px;
 }
 
-.mobile-menu-wrapper .sidebar-menu nav ul li a{ 
+.sidebar-menu nav ul li a{ 
   text-decoration:none;
   color:white;
   font-size:16px;
 }
-
-.mobile-menu-wrapper .main-content-area {
-  padding:20px;
-}
-
-.mobile-menu .top-nav-dropdown{
-  position:absolute;
-  left:75%;
-  width:200px;
-  margin-top:5px;
-}
-.mobile-menu .top-nav-dropdown nav ul{
-  list-style: none;
-  padding-left:4px
-}
-.mobile-menu .top-nav-dropdown nav ul li{
- padding:10px;
- border-radius:10px;
- transition: 0.5s;
-}
-.mobile-menu .top-nav-dropdown nav ul li:hover{
-  background-color: #ffffff;
-  box-shadow: 0px 2px 10px rgb(236, 236, 236);
-  cursor: pointer;
-}
-
-/*************** Mobile Menu End*******************/
-
-
-/*************** Desktop Menu Start **************/
-
-
-.desktop-wrapper{
-  display:flex;
-  flex-direction: row;
-}
-.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left:20px;
-  padding:20px
-}
-
-.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper svg{
-  font-size:30px;
-  font-weight: 600;
-  color:white;
-}
-.desktop-wrapper .desktop-sidebar .toggle-menu-wrapper .brand-name{
-  font-size:25px;
-  margin-left:20px;
-  color:white
-}
-.desktop-wrapper .desktop-sidebar{
-  background-color: rgb(50, 50, 77);
-  height:100vh;
-  width:300px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-}
-.desktop-wrapper .desktop-sidebar nav{
-  padding:5px;
-}
-.desktop-wrapper .desktop-sidebar nav ul{
-  list-style: none;
-}
-
-.desktop-wrapper .desktop-sidebar nav ul li{
-  padding:5px;
-  transition: 0.5s;
-}
-
-.desktop-wrapper .desktop-sidebar nav ul li:hover{
-  background-color: rgb(64, 64, 92);
-  border-radius: 5px;
-}
-
-.desktop-wrapper .desktop-sidebar nav ul li a{ 
-  text-decoration:none;
-  color:white;
-  font-size:16px;
-}
-.desktop-wrapper  .desktop-content{
-  width:100%;
-  height:100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-}
-
-.desktop-wrapper .desktop-content .top-navigation{
-  background-color: white;
-  padding:10px;
-  box-shadow: 2px 0px 5px rgb(236, 236, 236);
-}
-
-.desktop-wrapper .desktop-content .top-navigation .profile-area{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: end;
-}
-
-.desktop-wrapper .desktop-content .top-navigation .profile-area img{
-  max-width:40px;
-  border-radius: 50%;
-  margin-right: 10px;
-}
-
-.desktop-wrapper .desktop-content .top-navigation .profile-area h6{
-  font-weight: 600;
-  margin-right: 10px;
-  margin-top:10px;
-}
-
-.desktop-wrapper .desktop-content .desktop-content-area{
-  padding:20px;
-}
-
-
-/******************* Desktop Menu End***************************/
 
 .sidebar-active{
   margin-left:0px;
   transition:0.5s;
 }
 .sidebar-deactive{
-  margin-left:-500px;
+  margin-left:-300px;
   transition:0.5s;
 }
+
+/************************ End Sidebar ******************************/
+
+/*********************** Contetn Area *******************************/
+.content-area{
+  width:100%;
+  height:100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+.content-area .top-nav{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: white;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:20px;
+  padding-right:20px;
+  box-shadow: 0px 5px 10px rgb(235, 235, 235);
+}
+
+.content-area .top-nav .toggle-menu-btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content-area .top-nav .toggle-menu-btn svg{
+  font-size:25px;
+}
+
+.content-area .top-nav .toggle-menu-btn h6{
+  font-size:25px;
+  margin-bottom:0px;
+  margin-left:20px
+}
+
+.content-area .top-nav .admin-profile{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-area .top-nav .admin-profile img{
+  max-height:40px;
+  max-width:40px;
+  border-radius:50%;
+  margin-right:10px;
+}
+
+.content-area .top-nav .admin-profile h6{
+  margin-bottom: 0px;
+}
+.content-area .content{
+  padding:20px;
+}
+
 
 .link-active{
   background-color: rgb(81, 81, 131);
@@ -349,13 +261,308 @@ code {
   color:rgb(105, 104, 104);
 }
 
+/********************* Manage User ************************/
+  
+  .manage-user-div .card{
+    margin-left:10px;
+  }
+  .manage-user-div .card:hover{
+    box-shadow: 0px 0px 10px rgb(218, 218, 218);
+    transition: 0.5s;
+    transform: scale(1.01,1.01);
+  }
+  .manage-user-div .user-info-div{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .manage-user-div .user-info-div .info img{
+    max-width:100px;
+    height:auto;
+    border-radius: 10px;
+  }
+  .manage-user-div .user-info-div .info .rating{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: -10px;
+    max-width:60px;
+    margin-left: 22px;
+    background-color: #e54d07;
+    font-size: 13px;
+    color: white;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-top:5px;
+    font-weight: 600;
+    border-radius: 30px;
+    
+  }
+
+  .manage-user-div .user-info-div .info-delete-btn svg{
+    font-size: 20px;
+    color:red;
+    cursor: pointer;
+  }
+
+  .manage-user-div .user-info-div .info .user-name p{
+    margin-top:5px;
+    margin-bottom:0px;
+    font-size:18px;
+    font-weight:600;
+  }
+  .manage-user-div .user-info-div .info .user-contact p{
+    font-size: 13px;
+    margin-bottom:4px;
+    font-weight: 600;
+    color:#5c5c5c;
+  }
+
+  .manage-user-div .user-info-div .info .user-contact p svg{
+    color:#8d8c8c;
+  }
+  .manage-user-div .user-info-div .info .user-referral-code{
+    margin-top:10px;
+    background-color:rgb(222, 237, 250);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:50px;
+    max-width:150px;
+  }
+  .manage-user-div .user-info-div .info .user-referral-code p{
+    font-size:12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+
+  .manage-user-div .user-info-footer{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:10px;
+    margin-top:10px
+  }
+  .manage-user-div .user-info-footer .view-user-full-info p{
+    font-size:15px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color:rgb(49, 49, 49);
+    cursor: pointer;
+  }
+  
+/********************* End Manage User ************************/
+
+/*********************** Manage Dealer****************************/
+
+#viewDealerDetails .dealer-modal-info-area{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .logo img{
+  max-height:100px;
+  border-radius:10px;
+}
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .logo .rating{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  margin-top: -10px;
+  max-width:60px;
+  margin-left: 22px;
+  background-color: #e54d07;
+  font-size: 13px;
+  color: white;
+  padding-left: 5px;
+  padding-right:5px;
+  padding-top:5px;
+  padding-top:5px;
+  font-weight: 600;
+  border-radius: 30px;
+  
+}
 
 
+
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info{
+  max-height:100px;
+  border-radius:10px;
+  margin-left:10px;
+}
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-name p{
+
+  margin-bottom:0px;
+  font-size:18px;
+  font-weight:600;
+}
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-contact p{
+  font-size: 13px;
+  margin-bottom:4px;
+  font-weight: 600;
+  color:#5c5c5c;
+}
+
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-contact p svg{
+  color:#8d8c8c;
+}
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-referral-code{
+  margin-top:10px;
+  background-color:rgb(222, 237, 250);
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius:50px;
+  max-width:150px;
+}
+#viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-referral-code p{
+  font-size:12px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+#viewDealerDetails .dealer-modal-info-area .location{
+  padding:10px;
+}
+
+#viewDealerDetails .dealer-modal-info-area .location iframe{
+  margin-top:20px;
+  border:1px solid rgb(206, 206, 206);
+  border-radius: 10px;
+}
+
+#viewDealerDetails .dealer-modal-products .card .card-body img{
+  max-width:200px;
+  border-radius:10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#viewDealerDetails .dealer-modal-products .card .card-body h6{
+  font-weight: bold;
+}
+
+
+/*********************** End Manage Dealer****************************/
+
+
+
+/********************* Manage Event ***********************/
+.event-list{
+  display: flex;
+  flex-direction: row;
+}
+.event-list img{
+  max-height:120px;
+  border-radius:10px
+}
+.event-list .event-description{
+  margin-left:20px;
+}
+.event-list .event-description .date-status-div{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.event-list .event-description .date-status-div .date{
+  display:flex;
+  flex-direction: row;
+}
+.event-list .event-description .date-status-div .date span:nth-child(1){
+ font-size:30px;
+ font-weight:bold;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2){
+  margin-left:10px;
+  margin-top:5px;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2) .month{
+  font-size:13px;
+  margin-bottom:0px;
+}
+.event-list .event-description .date-status-div .date span:nth-child(2) .day{
+  font-size:13px;
+  margin-bottom:0px;
+}
+
+.event-list .event-description .date-status-div .status p{
+  font-size:15px;
+  margin-bottom:0px;
+  color:rgb(87, 85, 85);
+  font-weight: 500;
+}
+.event-list .event-description .date-status-div .status p:nth-child(2){
+  font-size:15px;
+  margin-bottom:0px;
+  color:rgb(12, 12, 12);
+  font-weight: 500;
+}
+.event-list .event-description p{
+  font-size:15px;
+  margin-bottom:0px;
+}
+.event-list .event-description .posted-location-delete-event-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc p{
+  font-size:15px;
+  color:#626161;
+}
+.event-list .event-description .posted-location-delete-event-div .posted-date-loc p:nth-child(2){
+  margin-left: 20px;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span{
+  margin-left: 20px;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(2){
+  color:red;
+}
+.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(3){
+  color:red;
+}
+
+
+/********************* End Manage Event ***********************/
 
 
 /***************** Media Queries Start **********************/
 
-
+@media only screen and (max-width: 990px){
+  #viewDealerDetails .dealer-modal-products .card .card-body img{
+    max-width:430px;
+  }
+}
 @media only screen and (min-width:992px){
   .overview-number-cards .card{
     margin-left:0px;
@@ -372,87 +579,26 @@ code {
 
 
 
-@media only screen and (max-width:1999px){
-  .mobile-menu-wrapper{
-    display: block;
+@media only screen and (max-width:1199px){
+  .sidebar-active{
+    margin-left:-300px;
+    transition:0.5s;
   }
-  .desktop-menu{
-    display: none;
+  .sidebar-deactive{
+    margin-left:0px;
+    transition:0.5s;
   }
-}
-@media only screen and (min-width:1200px){
-  .mobile-menu-wrapper{
-    display: none;
+
+  #viewDealerDetails .dealer-modal-info-area .location iframe{
+    margin-top:40px;
   }
-  .desktop-menu{
-    display:block;
-  }
+  
 }
 
 
-/*
-.sidebar{
-  height:100vh;
-}
-.sidebar-bg{
-  background-color: #333340;
-}
-.brand{
-  display: flex;
-  flex-direction: row;
-  margin-left:30px;
-}
-.brand-logo{
-  font-size: 40px;
-  color: rgb(173, 172, 172);
-  margin-right: 10px;
-}
 
-.brand-name{
-  color:rgb(218, 214, 214);
-  margin-left:10px;
-  margin-top:15px;
-}
 
-.nav-links{
-  margin-top:10px;
-}
-.nav-links ul{
-  list-style: none;
-}
-.nav-links li a{
-  text-decoration: none;
-  color:white;
-  font-size:14px;
-}
-
-.navbar-custom{
-  background-color: rgb(253 253 253);
-  height: 60px;
-  box-shadow: 2px 0px 5px #ddd7d7;;
-}
-
-.navbar-custom .top-nav-menu{
-  display:flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: auto;
-  margin-right:25px;
-}
-
-.navbar-custom .top-nav-menu img{
-  width:40px;
-  border-radius: 5px;
-  margin-right:10px;
-}
-
-.main-content{
-  background-color: rgb(245 244 244);
-  padding: 20px;
-  height:100vh;
-}
-*/
-.breadcrumb{
+/* .breadcrumb{
   font-size:30px;
   font-weight:400;
   color: #000;
@@ -714,88 +860,6 @@ code {
   color:black;
   font-size:12px;
   font-weight: bold;
-}
+} */
 
 
-/********************* Manage Event ***********************/
-.event-list{
-  display: flex;
-  flex-direction: row;
-}
-.event-list img{
-  max-height:120px;
-  border-radius:10px
-}
-.event-list .event-description{
-  margin-left:20px;
-}
-.event-list .event-description .date-status-div{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.event-list .event-description .date-status-div .date{
-  display:flex;
-  flex-direction: row;
-}
-.event-list .event-description .date-status-div .date span:nth-child(1){
- font-size:30px;
- font-weight:bold;
-}
-.event-list .event-description .date-status-div .date span:nth-child(2){
-  margin-left:10px;
-  margin-top:5px;
-}
-.event-list .event-description .date-status-div .date span:nth-child(2) .month{
-  font-size:13px;
-  margin-bottom:0px;
-}
-.event-list .event-description .date-status-div .date span:nth-child(2) .day{
-  font-size:13px;
-  margin-bottom:0px;
-}
-
-.event-list .event-description .date-status-div .status p{
-  font-size:15px;
-  margin-bottom:0px;
-  color:rgb(87, 85, 85);
-  font-weight: 500;
-}
-.event-list .event-description .date-status-div .status p:nth-child(2){
-  font-size:15px;
-  margin-bottom:0px;
-  color:rgb(12, 12, 12);
-  font-weight: 500;
-}
-.event-list .event-description p{
-  font-size:15px;
-  margin-bottom:0px;
-}
-.event-list .event-description .posted-location-delete-event-div{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.event-list .event-description .posted-location-delete-event-div .posted-date-loc{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.event-list .event-description .posted-location-delete-event-div .posted-date-loc p{
-  font-size:15px;
-  color:#626161;
-}
-.event-list .event-description .posted-location-delete-event-div .posted-date-loc p:nth-child(2){
-  margin-left: 20px;
-}
-.event-list .event-description .posted-location-delete-event-div .delete-event span{
-  margin-left: 20px;
-}
-.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(2){
-  color:red;
-}
-.event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(3){
-  color:red;
-}

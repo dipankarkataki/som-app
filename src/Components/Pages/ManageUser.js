@@ -1,288 +1,357 @@
-import {FaTrashAlt, FaEnvelope, FaPhoneAlt, FaPlus} from 'react-icons/fa';
+import {FaTrashAlt, FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
 
-const ManageUser = () => {
+const ManageUser = () => { 
     return (
         <>
-            <div className="manage-user-breadcrumb">
-                <p>Manage Users</p>
-                {/* <button type="button" className="btn btn-sm custom-btn" data-bs-toggle="modal" data-bs-target="#manageUserModal">ADD NEW</button> */}
+            <div className='page-header mb-3'>
+                <h4>Manage Users</h4>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#addUserModal" className='btn common-button'>ADD NEW</button>
             </div>
-            <div className="content-area">
-                <div className="row">
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+            <div className='row mt-4'>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
                                         </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="row mt-3">
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
                                         </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-3 col-sm-6 col-12">
-                        <div className="card manage-user-card">
-                            <div className="card-body">
-                                <div className="manage-user-content">
-                                    <img src="Images/pic6.jpg" alt="avatar" />
-                                    <FaTrashAlt style={{color:'red'}}/>
-                                </div>
-                                <div className="manage-user-content-details">
-                                    <h5>Jhon Doe</h5>
-                                    <p>
-                                        <FaEnvelope />&nbsp;&nbsp;
-                                        <span>example@xyz.com</span>
-                                    </p>
-                                    <p>
-                                        <FaPhoneAlt />&nbsp;&nbsp;
-                                        <span>7895412014</span>
-                                    </p>
-                                    <p className="referal-code">Referral Code: 1234567</p>
-
-                                    <div className="manage-user-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="modal" id="manageUserModal">
-                    <div className="modal-dialog modal-lg">
-                        <div className="modal-content">
-                            <div className="modal-header">
-                                <h5 className="modal-title"> Add New User</h5>
-                                <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div className="modal-body">
-                                <form class="form-horizontal">
-                                    <div className="row">
-                                        <div className="col-md-6 col-sm-12">
-                                            <div className="mb-3">
-                                                <input type="text" className="form-control" id="dealerUsername" placeholder="Username" />
-                                            </div> 
-                                            <div className="mb-3">
-                                                <textarea className="form-control" rows="8" placeholder='Description'></textarea>
-                                            </div> 
-                                            <div className="mb-3">
-                                                <input type="text" className="form-control" id="location" placeholder="Location" />
-                                            </div>  
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
                                         </div>
-                                        <div className="col-md-6 col-sm-12">
-                                            <h6 className="mb-3">Images (Optional)</h6>
-                                            <div className="mb-3 image-uploader">
-                                                <FaPlus />
-                                            </div>
-                                            <div className="mb-3">
-                                                <textarea className="form-control" rows="6" placeholder='Other Details'></textarea>
-                                            </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
-                            <div className="modal-footer">
-                                <button type="button" className="btn btn-danger" style={{background: '#e54d07'}} data-bs-dismiss="modal">Save</button>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="Images/5.jpg" alt="user-avatar"/>
+                                        <div className='user-name'>
+                                            <p>Jane Doe</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p>View Details</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            <div class="modal" id="addUserModal">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header text-center">
+                            <h4 class="modal-title">Add New User</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form className='form-horizontal'>
+                                <div className='row'>
+                                    <div className='col-md-6 col-sm-12'>
+                                        <div className='mb-3'>
+                                            <input type="text" name="userName" className="form-control" placeholder="User name" />
+                                        </div>
+                                        <div className='mb-3'>
+                                            <textarea name="description" className="form-control" rows="7" placeholder="Description:"></textarea>
+                                        </div>
+                                        <div className='mb-3'>
+                                            <input type="text" name="location" className="form-control" placeholder="Location:" />
+                                        </div>
+                                    </div>
+                                    <div className='col-md-6 col-sm-12'>
+                                        <div className='mb-3'>
+                                            <label class="form-label">Images</label>
+                                            <input type="file" name="image" className="form-control" placeholder="User name" />
+                                        </div>
+                                        <div className='mb-3'>
+                                            <textarea name="otherDetails" className="form-control" rows="8" placeholder="Other Details" ></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-bs-dismiss="modal" className='btn common-button'>Save</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     );
