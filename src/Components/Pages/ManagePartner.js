@@ -7,7 +7,7 @@ const ManagePartner = () => {
                 <button type="button" data-bs-toggle="modal" data-bs-target="#addPartnerModal" className='btn common-button'>ADD NEW</button>
             </div>
             <div className='row mt-4'>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -53,7 +53,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -99,7 +99,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -145,7 +145,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -191,7 +191,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -237,7 +237,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -283,7 +283,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -329,7 +329,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>
@@ -375,7 +375,7 @@ const ManagePartner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-lg-3 col-md-4 col-sm-6 col-12'>
+                <div className='col-md-4 col-sm-6 col-12'>
                     <div className='manage-user-div mb-3'>
                         <div className='card'>
                             <div className='card-body'>

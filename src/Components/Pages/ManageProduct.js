@@ -4,12 +4,12 @@ const ManageProduct = () => {
     return (
         <>
             <div className="page-header mb-3">
-                <p>Manage Product</p>
+                <h4>Manage Product</h4>
                 <button type="button" data-bs-toggle="modal" data-bs-target="#manageProductModal" className='btn common-button'>ADD NEW</button>
             </div>
             <div className="content-area">
                 <div className="row">
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -35,7 +35,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -61,7 +61,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -87,7 +87,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -113,7 +113,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -139,7 +139,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
@@ -165,7 +165,7 @@ const ManageProduct = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">

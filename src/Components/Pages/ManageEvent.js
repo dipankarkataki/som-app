@@ -3,7 +3,7 @@ const ManageEvent = () => {
         <>
             <div className='page-header mb-3'>
                 <h4>Manage Event</h4>
-                <button type="button" data-bs-toggle="modal" data-bs-target="#addDealerModal" className='btn common-button'>ADD NEW</button>
+                <button type="button" data-bs-toggle="modal" data-bs-target="#addNewEvent" className='btn common-button'>ADD NEW</button>
             </div>
             <div className='event-list mb-4'>
                 <img src="Images/event.jpg" alt="event"/>
@@ -203,11 +203,11 @@ const ManageEvent = () => {
                 </div>
             </div>
 
-            <div className="modal" id="addDealerModal">
+            <div className="modal" id="addNewEvent">
                 <div className="modal-dialog modal-lg">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title"> Add New Dealer</h5>
+                            <h5 className="modal-title"> Add New Event</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div className="modal-body">
@@ -215,7 +215,7 @@ const ManageEvent = () => {
                                 <div className='row'>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <input type="text" name="userName" className="form-control" placeholder="User name" />
+                                            <input type="date" name="eventDate" className="form-control" placeholder="Select Date" />
                                         </div>
                                         <div className='mb-3'>
                                             <textarea name="description" className="form-control" rows="7" placeholder="Description:"></textarea>
@@ -226,8 +226,7 @@ const ManageEvent = () => {
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
-                                            <input type="file" name="image" className="form-control" placeholder="User name" />
+                                            <input type="text" name="eventTitle" className="form-control" placeholder="Title" />
                                         </div>
                                         <div className='mb-3'>
                                             <textarea name="otherDetails" className="form-control" rows="8" placeholder="Other Details" ></textarea>
