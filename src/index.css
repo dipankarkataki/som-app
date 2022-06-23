@@ -927,7 +927,7 @@ code {
   font-weight:600;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -960,7 +960,7 @@ hr{
   font-weight:600;
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -1023,7 +1023,7 @@ hr{
 .feedback-list .feedback-delete p{
   display: flex;
   flex-direction: row;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   font-size: 14px;
   margin-top:20px;
