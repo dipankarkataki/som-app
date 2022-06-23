@@ -6,9 +6,9 @@ const ManagePartnerWork = () =>{
                 <h4>Manage Partner Work</h4>
             </div>
             <div className="content-area">
-                <div className="row mb-3">
+                <div className="row">
                     <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -34,7 +34,7 @@ const ManagePartnerWork = () =>{
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -60,7 +60,163 @@ const ManagePartnerWork = () =>{
                         </div>
                     </div>
                     <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
+                            <div className="card-body">
+                                <div className="manage-product-content">
+                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                </div>
+                                <div className="manage-product-content-details pt-2">
+                                    <h5>MBC Steel</h5>
+                                    <p >
+                                        Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
+                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    </p>
+
+                                    <div className="manage-product-status-details">
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
+                                            <FaTrashAlt style={{color:'red'}}/>
+                                        </div>
+                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-sm-6 col-12">
+                        <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
                                     <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
@@ -86,86 +242,6 @@ const ManagePartnerWork = () =>{
                         </div>
                     </div>
                 </div>
-                <div className="row mb-3">
-                    <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
-                            <div className="card-body">
-                                <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
-                                </div>
-                                <div className="manage-product-content-details pt-2">
-                                    <h5>MBC Steel</h5>
-                                    <p >
-                                        Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    </p>
-
-                                    <div className="manage-product-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                            <FaTrashAlt style={{color:'red'}}/>
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
-                            <div className="card-body">
-                                <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
-                                </div>
-                                <div className="manage-product-content-details pt-2">
-                                    <h5>MBC Steel</h5>
-                                    <p >
-                                        Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    </p>
-
-                                    <div className="manage-product-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                            <FaTrashAlt style={{color:'red'}}/>
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4 col-sm-6 col-12">
-                        <div className="card manage-product-card">
-                            <div className="card-body">
-                                <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
-                                </div>
-                                <div className="manage-product-content-details pt-2">
-                                    <h5>MBC Steel</h5>
-                                    <p >
-                                        Lorem ipsum dolor sit amet,
-                                        consectetur adipiscing elit,sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                    </p>
-
-                                    <div className="manage-product-status-details">
-                                        <div className="form-check form-switch">
-                                            <input className="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" defaultChecked />
-                                            <FaTrashAlt style={{color:'red'}}/>
-                                        </div>
-                                        <button class="btn btn-default btn-sm">VIEW DETAILS</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
             </div>
             
             <div className="modal" id="manageProductModal">

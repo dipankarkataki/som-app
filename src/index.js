@@ -13,6 +13,9 @@ import ManageEvent from './Components/Pages/ManageEvent';
 import ManagePartnerWork from './Components/Pages/ManagePartnerWork';
 import TradingAdvice from './Components/Pages/TradingAdvice';
 import UpcomingProjects from './Components/Pages/UpcomingProjects';
+import Inquiries from './Components/Pages/Inquiries';
+import Feedback from './Components/Pages/Feedback';
+import OfferAndDiscount from './Components/Pages/OfferAndDiscount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +33,9 @@ root.render(
           <Route path="manage-partner-work" element={<ManagePartnerWork/>} />
           <Route path="trading-advice" element={<TradingAdvice/>} />
           <Route path="upcoming-projects" element={<UpcomingProjects/>} />
+          <Route path="inquiries" element={<Inquiries />}/>
+          <Route path="feedback" element={<Feedback />}/>
+          <Route path="offer-discount" element={<OfferAndDiscount />}/>
         </Route>
       </Routes>
     </BrowserRouter>

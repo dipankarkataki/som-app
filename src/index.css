@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -820,18 +820,16 @@ code {
 .image-uploader svg{
   color:rgb(172, 169, 169);
 }
-
+*/
 
 .content-area .manage-product-card{
-  margin-left:30px;
-  margin-right:30px;
+  margin-left:10px;
   border-radius: 10px;
   box-shadow: 0px 1px 5px #cfc9c9;
 }
 
 
 .manage-product-card .manage-product-content img{
-
   border-radius: 10px;
 }
 
@@ -842,24 +840,236 @@ code {
 .manage-product-content-details p{
   margin-top: 0px;
   margin-bottom: 0px;
-  font-size: 12px;
+  font-size: 14px;
   color: grey;
 }
 
 .manage-product-status-details{
   display:flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-top:20px;
   align-items: center;
 }
-.manage-product-status-details .form-switch{
-  margin-top:3px;
+.manage-product-status-details .form-switch input{
+  margin-top:6px;
+}
+.manage-product-status-details .form-switch svg{
+  margin-left:20px;
 }
 .manage-product-status-details button{
-  color:black;
-  font-size:12px;
+  color:rgb(53, 52, 52);
+  font-size:13px;
   font-weight: bold;
-} */
+} 
 
 
+/*********************** Inquiry Form ********************************/
+
+.inquiry-page-header{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.inquiry-page-header .toggle-inquiry-tab{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+}
+.inquiry-page-header .toggle-inquiry-tab p{
+ margin-left:30px;
+ margin-top: 10px;
+ background-color: #ffffff;
+ color:rgb(0, 0, 0);
+ padding-left:20px;
+ padding-right:20px;
+ padding-top:5px;
+ padding-bottom:5px;
+ border-radius:50px;
+ border:1px solid rgb(199, 199, 199);
+ font-weight: 500;
+ box-shadow: 0px 5px 10px rgb(245, 244, 244);
+ cursor: pointer;
+}
+.inquiry-page-header .toggle-inquiry-tab .inquiry-tab-active{
+  background-color: #e54d07;
+  color:rgb(255, 255, 255);
+  box-shadow: 0px 5px 10px rgb(214, 214, 214);
+}
+
+
+.inquiries-list .inquiry-partner .inquiry-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inquiries-list .inquiry-partner .inquiry-info p{
+  font-size:14px;
+  color:rgb(94, 92, 92);
+  margin-right:20px;
+}
+.inquiries-list .inquiry-partner .inquiry-info p span{
+  margin-right:10px;
+}
+.inquiries-list .inquiry-partner .inquiry-description{
+  font-size:14px;
+}
+
+.inquiries-list .inquiry-partner .message-back{
+  font-size:14px;
+  color:#e54d07;
+  font-weight:600;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+hr{
+  color:rgb(206, 206, 206);
+}
+
+.inquiries-list .inquiry-dealer .inquiry-info{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.inquiries-list .inquiry-dealer .inquiry-info p{
+  font-size:14px;
+  color:rgb(94, 92, 92);
+  margin-right:20px;
+}
+.inquiries-list .inquiry-dealer .inquiry-info p span{
+  margin-right:10px;
+}
+.inquiries-list .inquiry-dealer .inquiry-description{
+  font-size:14px;
+}
+
+.inquiries-list .inquiry-dealer .message-back{
+  font-size:14px;
+  color:#e54d07;
+  font-weight:600;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.inquiries-list {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding-left:20px;
+  padding-right:20px;
+}
+.inquiry-message{
+  background-color: #d6d5d5;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:30px;
+  padding-bottom:30px;
+  max-width: 450px;
+  height: 60vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  border-radius:5px;
+  box-shadow: 0px 5px 10px rgb(230, 230, 230);
+}
+.inquiry-message .user, .admin p{
+  font-size:13px;
+}
+
+/*********************** Feedback ********************************/
+
+.feedback-list .user{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.feedback-list .user .info span{
+    font-size: 14px;
+    margin-right:20px;
+    color:rgb(102, 102, 102);
+}
+.feedback-list .user .info span svg{
+  margin-right:5px;
+}
+
+.feedback-list .user .reported-by{
+  color:#e54d07;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.feedback-list .feedback-content p{
+  font-size: 14px;
+  margin-top:20px;
+}
+
+.feedback-list .feedback-delete p{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  font-size: 14px;
+  margin-top:20px;
+  color:#e54d07;
+  font-weight: 600;
+}
+
+.discount-div .card{
+  border:2px dashed rgb(218, 218, 218);
+  border-radius:20px;
+  padding:5px;
+}
+
+.discount-div p{
+  font-size: 14px;
+}
+.discount-div .code-and-status{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.discount-div .code-and-status h6{
+  background-color:rgb(222, 237, 250);
+  padding-left:10px;
+  padding-right:10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius:50px;
+  max-width:150px;
+  margin-right:20px
+}
+
+.discount-div .code-and-status svg{
+  color:red;
+  margin-left:10px;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-button {
+  background: rgb(255, 255, 255)
+}
+::-webkit-scrollbar-track-piece {
+  background: rgb(235, 234, 234)
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(189, 188, 188)
+}

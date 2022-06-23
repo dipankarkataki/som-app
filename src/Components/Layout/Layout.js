@@ -6,18 +6,15 @@ const Layout = () =>{
     
     const sidebarToggle = () => {
         let sidebarActiveStatus = document.querySelector('.sidebar-menu');
-        let brandNameOnSmallScreen = document.querySelector('.content-area .top-nav .toggle-menu-btn h6');
 
         // console.log('brandNameOnSmallScreen  ===>',brandNameOnSmallScreen);
         if(sidebarActiveStatus.classList[1] === 'sidebar-active'){
             sidebarActiveStatus.classList.remove('sidebar-active');
             sidebarActiveStatus.classList.add('sidebar-deactive');
-            brandNameOnSmallScreen.style.visibility = "hidden";
             
         }else{
             sidebarActiveStatus.classList.remove('sidebar-deactive');
             sidebarActiveStatus.classList.add('sidebar-active');
-            brandNameOnSmallScreen.style.visibility = "visible";
         }
     }
 
@@ -31,7 +28,6 @@ const Layout = () =>{
                     <div className='top-nav'>
                         <div className="toggle-menu-btn">
                             <FiMenu onClick={sidebarToggle} />
-                            <h6 className='brand-name' style={{visibility:"hidden"}}>SOM</h6>
                         </div>
                         <div className='admin-profile'>
                             <img src="Images/pic1.jpg" alt="admin-pic"/>

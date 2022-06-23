@@ -86,8 +86,6 @@ const UpcomingProjects = () =>{
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row">
                     <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3" style={{backgroundColor: "aliceblue"}}>
                             <div className="card-body">
@@ -166,8 +164,6 @@ const UpcomingProjects = () =>{
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="row">
                     <div className="col-md-4 col-sm-6 col-12">
                         <div className="card manage-product-card mb-3" style={{backgroundColor: "aliceblue"}}>
                             <div className="card-body">

@@ -43,6 +43,15 @@ const Sidebar = () => {
                 <li className={splitLocation[1] === "upcoming-projects" ? "link-active" : ""}>
                     <Link to="/upcoming-projects">Upcoming Projects</Link>
                 </li>
+                <li className={splitLocation[1] === "inquiries" ? "link-active" : ""}>
+                    <Link to="/inquiries">Inquiries</Link>
+                </li>
+                <li className={splitLocation[1] === "feedback" ? "link-active" : ""}>
+                    <Link to="/feedback">Feedback</Link>
+                </li>
+                <li className={splitLocation[1] === "offer-discount" ? "link-active" : ""}>
+                    <Link to="/offer-discount">Offers And Discounts</Link>
+                </li>
             </ul>
         </nav>
     );
