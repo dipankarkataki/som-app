@@ -1,0 +1,102 @@
+#viewDealerDetails .dealer-modal-info-area{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .logo img{
+    max-height:100px;
+    border-radius:10px;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .logo .rating{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: -10px;
+    max-width:60px;
+    margin-left: 22px;
+    background-color: #e54d07;
+    font-size: 13px;
+    color: white;
+    padding-left: 5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-top:5px;
+    font-weight: 600;
+    border-radius: 30px;
+    
+  }
+  
+  
+  
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info{
+    max-height:100px;
+    border-radius:10px;
+    margin-left:10px;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-name p{
+  
+    margin-bottom:0px;
+    font-size:18px;
+    font-weight:600;
+  }
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-contact p{
+    font-size: 13px;
+    margin-bottom:4px;
+    font-weight: 600;
+    color:#5c5c5c;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-contact p svg{
+    color:#8d8c8c;
+  }
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-referral-code{
+    margin-top:10px;
+    background-color:rgb(222, 237, 250);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:50px;
+    max-width:150px;
+  }
+  #viewDealerDetails .dealer-modal-info-area .logo-and-info .info .user-referral-code p{
+    font-size:12px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  #viewDealerDetails .dealer-modal-info-area .location{
+    padding:10px;
+  }
+  
+  #viewDealerDetails .dealer-modal-info-area .location iframe{
+    margin-top:20px;
+    border:1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+  }
+  
+  #viewDealerDetails .dealer-modal-products .card .card-body img{
+    max-width:200px;
+    border-radius:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #viewDealerDetails .dealer-modal-products .card .card-body h6{
+    font-weight: bold;
+  }

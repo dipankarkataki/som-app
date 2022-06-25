@@ -1,3 +1,4 @@
+import "../Feedback/Feedback.css";
 import { FaEnvelope , FaPhoneAlt} from "react-icons/fa";
 
 const Feedback = () => {

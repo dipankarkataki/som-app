@@ -1,3 +1,4 @@
+import "../Dealer/Dealer.css";
 import {FaTrashAlt, FaEnvelope, FaPhoneAlt, FaStar} from 'react-icons/fa';
 const ManageDealer = () => {
     return (

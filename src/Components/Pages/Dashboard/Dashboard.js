@@ -1,5 +1,5 @@
+import "../Dashboard/Dashboard.css";
 import {FaUsers, FaRegHandshake, FaAddressBook, FaBoxes, FaEnvelope, FaPhoneAlt, FaStar} from 'react-icons/fa';
-
 
 const  Dashboard = () =>{
     return (

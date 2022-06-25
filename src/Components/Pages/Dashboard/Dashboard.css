@@ -1,0 +1,94 @@
+.overview-number-cards .card{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .overview-number-cards .card-body{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .overview-number-cards .card-icon{
+    background-color: rgb(230, 77, 6);
+    border-radius:50%;
+    height:80px;
+    width:80px;
+    margin-left:30px;
+  }
+  .overview-number-cards .card-icon svg{
+    color:white;
+    font-size:40px;
+    margin:20px;
+  }
+  
+  .overview-number-cards .card-content{
+    margin-right:30px;
+  }
+  
+  .overview-number-cards .card-content p{
+    font-size:25px;
+    font-weight: 500;
+    color:rgb(87, 85, 85);
+    margin-left:5px;
+    margin-bottom:0px;
+  }
+  .overview-number-cards .card-content h3{
+    font-size:40px;
+    font-weight: 500;
+  }
+  
+  .overview-last-new-added-user-card{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  
+  .overview-last-new-added-user-card .header{
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+    color:rgb(87, 85, 85);
+  }
+  .overview-last-new-added-user-card .card-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border:1px solid rgb(228, 227, 227);
+    border-radius: 5px;
+    padding:5px 10px;
+    align-items: center;
+  }
+  .overview-last-new-added-user-card .card-content .image-area img{
+    height:60px;
+    border-radius: 5px;
+  }
+  .overview-last-new-added-user-card .card-content .image-area p{
+    background-color: rgb(230, 77, 6);
+    color:white;
+    font-size:10px;
+    font-weight: bold;
+    padding:5px;
+    text-align: center;
+    border-radius:50px;
+    position: relative;
+    z-index:10;
+    margin-top:-10px;
+    margin-left:10px;
+    margin-bottom: 0px;
+    line-height: 10px;
+    width:70%
+  }
+  .overview-last-new-added-user-card .card-content .description{
+    margin-left:10px;
+  }
+  .overview-last-new-added-user-card .card-content .description h6{
+    margin-bottom:0px;
+  }
+  .overview-last-new-added-user-card .card-content .description p{
+    margin-bottom:0px;
+  }
+  
+  .overview-last-new-added-user-card .card-content .description p, .email, .phone{
+    font-size:13px;
+    font-weight: 400;
+    color:rgb(105, 104, 104);
+  }

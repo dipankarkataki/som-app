@@ -1,5 +1,6 @@
 import {Outlet} from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
+import "../Layout/Layout.css";
 import {FiMenu} from 'react-icons/fi'
 
 const Layout = () =>{

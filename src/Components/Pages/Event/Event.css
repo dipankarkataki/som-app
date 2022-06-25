@@ -1,0 +1,81 @@
+.event-list{
+    display: flex;
+    flex-direction: row;
+  }
+  .event-list img{
+    max-height:120px;
+    border-radius:10px
+  }
+  .event-list .event-description{
+    margin-left:20px;
+  }
+  .event-list .event-description .date-status-div{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .event-list .event-description .date-status-div .date{
+    display:flex;
+    flex-direction: row;
+  }
+  .event-list .event-description .date-status-div .date span:nth-child(1){
+   font-size:30px;
+   font-weight:bold;
+  }
+  .event-list .event-description .date-status-div .date span:nth-child(2){
+    margin-left:10px;
+    margin-top:5px;
+  }
+  .event-list .event-description .date-status-div .date span:nth-child(2) .month{
+    font-size:13px;
+    margin-bottom:0px;
+  }
+  .event-list .event-description .date-status-div .date span:nth-child(2) .day{
+    font-size:13px;
+    margin-bottom:0px;
+  }
+  
+  .event-list .event-description .date-status-div .status p{
+    font-size:15px;
+    margin-bottom:0px;
+    color:rgb(87, 85, 85);
+    font-weight: 500;
+  }
+  .event-list .event-description .date-status-div .status p:nth-child(2){
+    font-size:15px;
+    margin-bottom:0px;
+    color:rgb(12, 12, 12);
+    font-weight: 500;
+  }
+  .event-list .event-description p{
+    font-size:15px;
+    margin-bottom:0px;
+  }
+  .event-list .event-description .posted-location-delete-event-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .event-list .event-description .posted-location-delete-event-div .posted-date-loc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .event-list .event-description .posted-location-delete-event-div .posted-date-loc p{
+    font-size:15px;
+    color:#626161;
+  }
+  .event-list .event-description .posted-location-delete-event-div .posted-date-loc p:nth-child(2){
+    margin-left: 20px;
+  }
+  .event-list .event-description .posted-location-delete-event-div .delete-event span{
+    margin-left: 20px;
+  }
+  .event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(2){
+    color:red;
+  }
+  .event-list .event-description .posted-location-delete-event-div .delete-event span:nth-child(3){
+    color:red;
+  }

@@ -1,3 +1,4 @@
+import "../Sidebar/Sidebar.css";
 import {Link, useLocation} from 'react-router-dom';
 // import {FaTimes} from 'react-icons/fa';
 

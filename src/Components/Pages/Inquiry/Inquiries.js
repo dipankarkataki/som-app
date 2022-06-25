@@ -1,3 +1,4 @@
+import "../Inquiry/Inquiry.css";
 import { FaEnvelope , FaPhoneAlt, FaTelegramPlane} from "react-icons/fa";
 
 const Inquiries = () => {
@@ -37,7 +38,7 @@ const Inquiries = () => {
     return (
         <>
             <div className='inquiry-page-header mb-3'>
-                <h4>Manage Dealer</h4>
+                <h4>Inquiries</h4>
                 <div className='toggle-inquiry-tab'>
                     <p className='inquiry-partner-btn inquiry-tab-active' onClick={partnerTabBtnFunction}>Partner</p>
                     <p className='inquiry-dealer-btn' onClick={dealerTabBtnFunction}>Dealer</p>
@@ -68,7 +69,7 @@ const Inquiries = () => {
                                 <p><span><FaPhoneAlt /> :</span> 7895412354</p>
                             </div>
                             <div className="inquiry-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                             </div>
                             <div className="message-back">
                                 <p>Message Back</p>

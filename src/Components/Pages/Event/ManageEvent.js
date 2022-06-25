@@ -1,3 +1,4 @@
+import "../Event/Event.css";
 const ManageEvent = () => {
     return (
         <>

@@ -1,3 +1,4 @@
+import "../User/User.css";
 import {FaTrashAlt, FaEnvelope, FaPhoneAlt} from 'react-icons/fa';
 
 const ManageUser = () => { 

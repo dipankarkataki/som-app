@@ -1,0 +1,68 @@
+.feedback-list .user{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .feedback-list .user .info span{
+      font-size: 14px;
+      margin-right:20px;
+      color:rgb(102, 102, 102);
+  }
+  .feedback-list .user .info span svg{
+    margin-right:5px;
+  }
+  
+  .feedback-list .user .reported-by{
+    color:#e54d07;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  
+  .feedback-list .feedback-content p{
+    font-size: 14px;
+    margin-top:20px;
+  }
+  
+  .feedback-list .feedback-delete p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    margin-top:20px;
+    color:#e54d07;
+    font-weight: 600;
+  }
+  
+  .discount-div .card{
+    border:2px dashed rgb(218, 218, 218);
+    border-radius:20px;
+    padding:5px;
+  }
+  
+  .discount-div p{
+    font-size: 14px;
+  }
+  .discount-div .code-and-status{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .discount-div .code-and-status h6{
+    background-color:rgb(222, 237, 250);
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius:50px;
+    max-width:150px;
+    margin-right:20px
+  }
+  
+  .discount-div .code-and-status svg{
+    color:red;
+    margin-left:10px;
+  }
