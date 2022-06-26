@@ -8,7 +8,7 @@ const TradingAdvice = () =>{
             </div>
             <div className="content-area">
                 <div className="row">
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -31,7 +31,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -54,7 +54,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -77,7 +77,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -100,7 +100,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -123,7 +123,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -146,7 +146,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -169,7 +169,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -192,7 +192,7 @@ const TradingAdvice = () =>{
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12">
+                    <div className="col-lg-4 col-md-6 col-sm-12">
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content-details pt-2">
@@ -232,9 +232,6 @@ const TradingAdvice = () =>{
                                 </div>
                                 <div className='mb-3'>
                                     <textarea name="description" className="form-control" rows="7" placeholder="Description:"></textarea>
-                                </div>
-                                <div className='mb-3'>
-                                    <input type="text" name="location" className="form-control" placeholder="Location:" />
                                 </div>
                             </form>
                         </div>

@@ -1,0 +1,52 @@
+.guest-lecture .card{
+    border-radius:20px;
+}
+
+.guest-lecture .header{
+    font-size:17px;
+    font-weight: 600;
+}
+.guest-lecture .date-link{
+    display: flex;
+    flex-direction: row;
+    
+}
+.guest-lecture .date-link .date{
+    font-size:16px;
+    font-weight: 600;
+    border-right:2px solid rgb(238, 238, 238);
+    padding-right:10px;
+    padding-top:5px;
+}
+.guest-lecture .date-link .link{
+   font-size:13px;
+   margin-left:20px;
+   color:rgb(230, 77, 6);
+   font-weight: 600;
+   margin-top:18px
+}
+
+.guest-lecture .footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.guest-lecture .footer .delete{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.guest-lecture .footer .posted p{
+    font-size:13px;
+    font-weight:600;
+    color:rgb(83, 83, 83);
+    margin-bottom: 0px;
+}
+
+.guest-lecture .footer .delete svg{
+    color:red;
+    margin-top:3px;
+    margin-left:20px;
+}

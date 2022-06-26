@@ -1,7 +1,7 @@
-.overview-number-cards .card{
+/* .overview-number-cards .card{
     margin-left:30px;
     margin-right:30px;
-  }
+  } */
   .overview-number-cards .card-body{
     display:flex;
     flex-direction: row;
@@ -37,10 +37,10 @@
     font-weight: 500;
   }
   
-  .overview-last-new-added-user-card{
+  /* .overview-last-new-added-user-card{
     margin-left:30px;
     margin-right:30px;
-  }
+  } */
   
   .overview-last-new-added-user-card .header{
     text-align: center;

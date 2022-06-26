@@ -1,4 +1,3 @@
-import "../Sidebar/Sidebar.css";
 import {Link, useLocation} from 'react-router-dom';
 // import {FaTimes} from 'react-icons/fa';
 
@@ -52,6 +51,21 @@ const Sidebar = () => {
                 </li>
                 <li className={splitLocation[1] === "offer-discount" ? "link-active" : ""}>
                     <Link to="/offer-discount">Offers And Discounts</Link>
+                </li>
+                <li className={splitLocation[1] === "cms" ? "link-active" : ""}>
+                    <Link to="/cms">CMS</Link>
+                </li>
+                <li className={splitLocation[1] === "steel-market" ? "link-active" : ""}>
+                    <Link to="/steel-market">Steel Market Update</Link>
+                </li>
+                <li className={splitLocation[1] === "guest-lecture" ? "link-active" : ""}>
+                    <Link to="/guest-lecture">Lectures</Link>
+                </li>
+                <li className={splitLocation[1] === "tender" ? "link-active" : ""}>
+                    <Link to="/tender">Tenders</Link>
+                </li>
+                <li className={splitLocation[1] === "education" ? "link-active" : ""}>
+                    <Link to="/education">Education</Link>
                 </li>
             </ul>
         </nav>

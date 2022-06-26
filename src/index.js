@@ -16,6 +16,11 @@ import UpcomingProjects from './Components/Pages/UpcomingProject/UpcomingProject
 import Inquiries from './Components/Pages/Inquiry/Inquiries';
 import Feedback from './Components/Pages/Feedback/Feedback';
 import OfferAndDiscount from './Components/Pages/OfferAndDiscount/OfferAndDiscount';
+import CMS from './Components/Pages/CMS/CMS';
+import SteelMarket from './Components/Pages/SteelMarket/SteelMarket';
+import GuestLecture from './Components/Pages/Lecture/GuestLecture';
+import Tender from './Components/Pages/Tender/Tender';
+import Education from './Components/Pages/Education/Education';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -36,6 +41,11 @@ root.render(
           <Route path="inquiries" element={<Inquiries />}/>
           <Route path="feedback" element={<Feedback />}/>
           <Route path="offer-discount" element={<OfferAndDiscount />}/>
+          <Route path="cms" element={<CMS />}/>
+          <Route path="steel-market" element={<SteelMarket />}/>
+          <Route path="guest-lecture" element={<GuestLecture />}/>
+          <Route path="tender" element={<Tender />}/>
+          <Route path="education" element={<Education />}/>
         </Route>
       </Routes>
     </BrowserRouter>

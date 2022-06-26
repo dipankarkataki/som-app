@@ -1,0 +1,66 @@
+.about-us .about-us-img{
+    border:2px dashed rgb(231, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    color: #585757;
+}
+
+.help .help-img{
+    border:2px dashed rgb(231, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    color: #585757;
+}
+
+.how-it-works .how-it-works-img{
+    border:2px dashed rgb(231, 229, 229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: #585757;
+}
+
+
+
+
+
+.message-div{
+    background-color: rgb(240, 239, 239);
+    border-radius:10px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.message-div .user-name{
+    font-weight:600;
+    font-size:14px;
+    margin-bottom:2px;
+}
+.message-div .user-contact-info{
+    margin-bottom:5px;
+}
+.message-div .user-contact-info span{
+    font-size:12px;
+    font-weight: 500;
+    margin-right:20px;
+}
+.message-div .subject{
+    font-size:14px;
+    margin-bottom:6px;
+}
+.message-div .subject span{
+    font-size:12px;
+    font-weight: 500;
+}
+.message-div .msg-content{
+    font-size:12px;
+    font-weight: 500;
+    margin-bottom:2px;
+}
