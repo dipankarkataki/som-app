@@ -37,7 +37,7 @@ code {
 
 .sidebar-menu {
   background-color: rgb(50, 50, 77);
-  width:300px;
+  width:400px;
   height:100vh;
   overflow-x: hidden;
   overflow-y: auto;
@@ -74,6 +74,7 @@ code {
   text-decoration:none;
   color:white;
   font-size:16px;
+  padding-left:30px;
 }
 
 .sidebar-active{
@@ -81,7 +82,7 @@ code {
   transition:0.5s;
 }
 .sidebar-deactive{
-  margin-left:-300px;
+  margin-left:-400px;
   transition:0.5s;
 }
 
@@ -117,7 +118,7 @@ code {
 
 @media only screen and (max-width:1199px){
   .sidebar-active{
-    margin-left:-300px;
+    margin-left:-400px;
     transition:0.5s;
   }
   .sidebar-deactive{
@@ -130,6 +131,8 @@ code {
   }
   
 }
+
+
 
 /***************** Media Queries End **********************/
 

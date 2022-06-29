@@ -92,3 +92,15 @@
     font-weight: 400;
     color:rgb(105, 104, 104);
   }
+
+
+  @media only screen and (max-width:1600px){
+    .overview-number-cards .card-content h3 {
+      font-size: 30px;
+      margin-left: 10px;
+    }
+    .overview-number-cards .card-content p {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  }

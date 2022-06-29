@@ -67,6 +67,9 @@ const Sidebar = () => {
                 <li className={splitLocation[1] === "education" ? "link-active" : ""}>
                     <Link to="/education">Education</Link>
                 </li>
+                <li className={splitLocation[1] === "quiz" ? "link-active" : ""}>
+                    <Link to="/quiz">Quiz</Link>
+                </li>
             </ul>
         </nav>
     );

@@ -10,7 +10,7 @@ const GuestLecture = () => {
                 <button type="button" data-bs-toggle="modal" data-bs-target="#addGuestLectureModal" className='btn common-button'>ADD NEW</button>
             </div>
             <div className="row guest-lecture">
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">
@@ -39,7 +39,7 @@ const GuestLecture = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">
@@ -68,7 +68,7 @@ const GuestLecture = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">
@@ -97,7 +97,7 @@ const GuestLecture = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">
@@ -126,7 +126,7 @@ const GuestLecture = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">
@@ -155,7 +155,7 @@ const GuestLecture = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-lg-4 col-md-6 col-sm-12">
                     <div className="card mb-3">
                         <div className="card-body">
                             <p className="header">

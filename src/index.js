@@ -21,6 +21,8 @@ import SteelMarket from './Components/Pages/SteelMarket/SteelMarket';
 import GuestLecture from './Components/Pages/Lecture/GuestLecture';
 import Tender from './Components/Pages/Tender/Tender';
 import Education from './Components/Pages/Education/Education';
+import Quiz from './Components/Pages/Quiz/Quiz';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -46,6 +48,7 @@ root.render(
           <Route path="guest-lecture" element={<GuestLecture />}/>
           <Route path="tender" element={<Tender />}/>
           <Route path="education" element={<Education />}/>
+          <Route path="quiz" element={<Quiz />}/>
         </Route>
       </Routes>
     </BrowserRouter>
