@@ -1,0 +1,74 @@
+.page-header .name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.page-header .name h4{
+    margin-right:40px;
+}
+.page-header .name p{
+    margin-left:30px;
+    margin-top: 5px;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    border-radius:50px;
+    border:1px solid rgb(199, 199, 199);
+    font-weight: 500;
+    box-shadow: 0px 5px 10px rgb(245, 244, 244);
+    cursor: pointer;
+}
+
+.page-header .name .quiz-tab-active{
+    background-color: #e54d07;
+    color:rgb(255, 255, 255);
+    box-shadow: 0px 5px 10px rgb(214, 214, 214);
+}
+
+.quiz-partner .card{
+    border-radius:10px;
+    box-shadow: 0px 0px 10px rgb(240, 240, 240);
+}
+
+.quiz-partner h4{
+    color:#e54d07;
+    font-weight: 600;
+}
+.quiz-partner .point{
+    color:#e54d07;
+    font-size:40px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.quiz-partner .description h6{
+    font-weight: bold;
+}
+.quiz-partner .description p{
+    font-size:14px;
+    margin-bottom:7px;
+}
+.quiz-partner .description p:nth-child(3){
+    font-size:14px;
+    color:rgb(102, 101, 101);
+    font-weight: 600;
+    margin-bottom:20px;
+}
+.quiz-partner .delete-update{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz-partner .delete-update svg{
+    color:#e54d07;
+}
+.quiz-partner .delete-update p{
+    margin-bottom:0px;
+    font-weight:500;
+}
