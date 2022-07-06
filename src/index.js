@@ -23,6 +23,9 @@ import Tender from './Components/Pages/Tender/Tender';
 import Education from './Components/Pages/Education/Education';
 import Quiz from './Components/Pages/Quiz/Quiz';
 import LoyaltyPoints from './Components/Pages/Loyalty/Loyalty';
+import ForgotPassword from './Components/Pages/ForgotPassword/ForgotPassword';
+import Layout from './Components/Layout/Layout';
+import Login from './Components/Pages/Login/Login';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,26 +34,30 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
-          <Route index element={<Dashboard/>} />
-          <Route path="dashboard" element={<Dashboard/>} />
-          <Route path="manage-user" element={<ManageUser/>} />
-          <Route path="manage-dealer" element={<ManageDealer/>} />
-          <Route path="manage-partner" element={<ManagePartner/>} />
-          <Route path="manage-product" element={<ManageProduct/>} />
-          <Route path="manage-event" element={<ManageEvent/>} />
-          <Route path="manage-partner-work" element={<ManagePartnerWork/>} />
-          <Route path="trading-advice" element={<TradingAdvice/>} />
-          <Route path="upcoming-projects" element={<UpcomingProjects/>} />
-          <Route path="inquiries" element={<Inquiries />}/>
-          <Route path="feedback" element={<Feedback />}/>
-          <Route path="offer-discount" element={<OfferAndDiscount />}/>
-          <Route path="cms" element={<CMS />}/>
-          <Route path="steel-market" element={<SteelMarket />}/>
-          <Route path="guest-lecture" element={<GuestLecture />}/>
-          <Route path="tender" element={<Tender />}/>
-          <Route path="education" element={<Education />}/>
-          <Route path="quiz" element={<Quiz />}/>
-          <Route path="loyalty-points" element={<LoyaltyPoints />}/>
+          <Route index element={<Login/>} />
+          <Route path="forgot-password" element={<ForgotPassword />}/>
+          <Route path="layout" element={<Layout />}>
+            <Route path="dashboard" element={<Dashboard/>} />
+            <Route path="manage-user" element={<ManageUser/>} />
+            <Route path="manage-dealer" element={<ManageDealer/>} />
+            <Route path="manage-partner" element={<ManagePartner/>} />
+            <Route path="manage-product" element={<ManageProduct/>} />
+            <Route path="manage-event" element={<ManageEvent/>} />
+            <Route path="manage-partner-work" element={<ManagePartnerWork/>} />
+            <Route path="trading-advice" element={<TradingAdvice/>} />
+            <Route path="upcoming-projects" element={<UpcomingProjects/>} />
+            <Route path="inquiries" element={<Inquiries />}/>
+            <Route path="feedback" element={<Feedback />}/>
+            <Route path="offer-discount" element={<OfferAndDiscount />}/>
+            <Route path="cms" element={<CMS />}/>
+            <Route path="steel-market" element={<SteelMarket />}/>
+            <Route path="guest-lecture" element={<GuestLecture />}/>
+            <Route path="tender" element={<Tender />}/>
+            <Route path="education" element={<Education />}/>
+            <Route path="quiz" element={<Quiz />}/>
+            <Route path="loyalty-points" element={<LoyaltyPoints />}/>
+            
+          </Route>
         </Route>
       </Routes>
     </BrowserRouter>

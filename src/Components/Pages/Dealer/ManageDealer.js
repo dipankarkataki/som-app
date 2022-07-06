@@ -14,7 +14,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -42,8 +42,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -59,7 +59,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -87,8 +87,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -104,7 +104,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -132,8 +132,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -149,7 +149,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -177,8 +177,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -194,7 +194,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -222,8 +222,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -239,7 +239,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -267,8 +267,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -284,7 +284,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -312,8 +312,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -329,7 +329,7 @@ const ManageDealer = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -357,8 +357,8 @@ const ManageDealer = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -395,7 +395,7 @@ const ManageDealer = () => {
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                         <div className='mb-3'>
@@ -417,15 +417,15 @@ const ManageDealer = () => {
             <div className="modal" id="viewDealerDetails">
                 <div className="modal-dialog modal-lg">
                     <div className="modal-content">
-                        <div class="modal-header text-center">
-                            <h4 class="modal-title">Dealer Details</h4>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        <div className="modal-header text-center">
+                            <h4 className="modal-title">Dealer Details</h4>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal"></button>
                         </div>
                         <div className="modal-body">
                             <div className='dealer-modal-info-area'>
                                 <div className='logo-and-info'>
                                     <div className='logo'>
-                                        <img src="Images/pic2.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -461,7 +461,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>
@@ -470,7 +470,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>
@@ -479,7 +479,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>
@@ -488,7 +488,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>
@@ -497,7 +497,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>
@@ -506,7 +506,7 @@ const ManageDealer = () => {
                                     <div className='col-md-4 col-sm-12'>
                                         <div className='card mb-3'>
                                             <div className='card-body'>
-                                                <img src="Images/product.jpg" alt="product" />
+                                                <img src="./../../../.././Images/product.jpg" alt="product" />
                                                 <h6 className='mt-3'>MBC Steel</h6>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                                             </div>

@@ -73,7 +73,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/pic2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="last-new-user-avatr"/>
                                     </div>
                                     <div className='description'>
                                         <h6>Daniel Craig</h6>
@@ -91,7 +91,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/pic2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="last-new-user-avatr"/>
                                     </div>
                                     <div className='description'>
                                         <h6>Daniel Craig</h6>
@@ -109,7 +109,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/pic2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/pic2.jpg" alt="last-new-user-avatr"/>
                                     </div>
                                     <div className='description'>
                                         <h6>Daniel Craig</h6>
@@ -136,7 +136,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/1.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/1.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>
@@ -154,7 +154,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/1.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/1.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>
@@ -172,7 +172,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/1.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/1.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>
@@ -199,7 +199,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/2.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>
@@ -217,7 +217,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/2.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>
@@ -235,7 +235,7 @@ const  Dashboard = () =>{
                                 </div>
                                 <div className='card-content mb-3'>
                                     <div className='image-area'>
-                                        <img src="Images/2.jpg" alt="last-new-user-avatr"/>
+                                        <img src="./../../../.././Images/2.jpg" alt="last-new-user-avatr"/>
                                         <p><FaStar/> &nbsp;4.5</p>
                                     </div>
                                     <div className='description'>

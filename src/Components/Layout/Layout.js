@@ -31,14 +31,14 @@ const Layout = () =>{
                             <FiMenu onClick={sidebarToggle} />
                         </div>
                         <div className='admin-profile'>
-                            <img src="Images/pic1.jpg" alt="admin-pic"/>
-                            <div class="dropdown">
-                                <button type="button" class="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">
+                            <img src="./../../../.././Images/pic1.jpg" alt="admin-pic"/>
+                            <div className="dropdown">
+                                <button type="button" className="btn btn-default dropdown-toggle" data-bs-toggle="dropdown">
                                     Admin
                                 </button>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#test">Profile</a></li>
-                                    <li><a class="dropdown-item" href="#test">Settings</a></li>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="#test">Profile</a></li>
+                                    <li><a className="dropdown-item" href="#test">Settings</a></li>
                                 </ul>
                             </div>
                             {/* <h6>Admin <FiChevronDown /></h6> */}
