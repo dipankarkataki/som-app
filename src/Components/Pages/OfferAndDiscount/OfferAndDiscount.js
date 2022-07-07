@@ -18,8 +18,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -37,8 +37,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -56,8 +56,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -75,8 +75,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -94,8 +94,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -113,8 +113,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -132,8 +132,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />
@@ -151,8 +151,8 @@ const OfferAndDiscount = () => {
                                 </p>
                                 <div className="code-and-status">
                                     <h6>Code: SOM20</h6>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <p>
                                         <FaTrashAlt />

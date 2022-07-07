@@ -13,7 +13,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -42,8 +42,54 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    </div>
+                                    <div className='view-user-full-info'>
+                                        <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
+                                    </div>NameName
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-md-4 col-sm-6 col-12'>
+                    <div className='manage-user-div mb-3'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <div className='user-info-div'>
+                                    <div className='info'>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
+                                        <div className='rating'>
+                                            <FaStar />
+                                            <span>4.3</span>
+                                        </div>
+                                        <div className='user-name'>
+                                            <p>Denial John</p>
+                                        </div>
+                                        <div className='user-contact'>
+                                            <p>
+                                                Category: Architecture
+                                            </p>
+                                            <p>
+                                                <FaEnvelope /> jane.doe@xyz.com
+                                            </p>
+                                            <p>
+                                                <FaPhoneAlt /> 9854123547
+                                            </p>
+                                            
+                                        </div>
+                                        <div className='user-referral-code'>
+                                            <p>Referral Code: 123456</p>
+                                        </div>
+                                    </div>
+                                    <div className='info-delete-btn'>
+                                        <FaTrashAlt />
+                                    </div>
+                                </div>
+                                <div className='user-info-footer'>
+                                    <div classNameName="form-check form-switch">
+                                        <input classNameName="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -59,7 +105,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -88,8 +134,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -105,7 +151,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -134,8 +180,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -151,7 +197,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -180,8 +226,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -197,7 +243,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -226,8 +272,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -243,7 +289,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -272,8 +318,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -289,7 +335,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -318,8 +364,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -335,7 +381,7 @@ const ManagePartner = () => {
                             <div className='card-body'>
                                 <div className='user-info-div'>
                                     <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
+                                        <img src="./../../../.././Images/pic4.jpg" alt="user-avatar"/>
                                         <div className='rating'>
                                             <FaStar />
                                             <span>4.3</span>
@@ -364,54 +410,8 @@ const ManagePartner = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
-                                    </div>
-                                    <div className='view-user-full-info'>
-                                        <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className='col-md-4 col-sm-6 col-12'>
-                    <div className='manage-user-div mb-3'>
-                        <div className='card'>
-                            <div className='card-body'>
-                                <div className='user-info-div'>
-                                    <div className='info'>
-                                        <img src="Images/pic4.jpg" alt="user-avatar"/>
-                                        <div className='rating'>
-                                            <FaStar />
-                                            <span>4.3</span>
-                                        </div>
-                                        <div className='user-name'>
-                                            <p>Denial John</p>
-                                        </div>
-                                        <div className='user-contact'>
-                                            <p>
-                                                Category: Architecture
-                                            </p>
-                                            <p>
-                                                <FaEnvelope /> jane.doe@xyz.com
-                                            </p>
-                                            <p>
-                                                <FaPhoneAlt /> 9854123547
-                                            </p>
-                                            
-                                        </div>
-                                        <div className='user-referral-code'>
-                                            <p>Referral Code: 123456</p>
-                                        </div>
-                                    </div>
-                                    <div className='info-delete-btn'>
-                                        <FaTrashAlt />
-                                    </div>
-                                </div>
-                                <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p data-bs-toggle="modal" data-bs-target="#viewDealerDetails">View Details</p>
@@ -445,7 +445,7 @@ const ManagePartner = () => {
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                         <div className='mb-3'>

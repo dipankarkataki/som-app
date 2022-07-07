@@ -74,8 +74,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -112,8 +112,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -150,8 +150,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -188,8 +188,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -226,8 +226,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -264,8 +264,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -302,8 +302,8 @@ const ManageUser = () => {
                                     </div>
                                 </div>
                                 <div className='user-info-footer'>
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <div className='view-user-full-info'>
                                         <p>View Details</p>
@@ -314,14 +314,14 @@ const ManageUser = () => {
                     </div>
                 </div>
             </div>
-            <div class="modal" id="addUserModal">
-                <div class="modal-dialog modal-lg">
-                    <div class="modal-content">
-                        <div class="modal-header text-center">
-                            <h4 class="modal-title">Add New User</h4>
+            <div className="modal" id="addUserModal">
+                <div className="modal-dialog modal-lg">
+                    <div className="modal-content">
+                        <div className="modal-header text-center">
+                            <h4 className="modal-title">Add New User</h4>
                             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                         </div>
-                        <div class="modal-body">
+                        <div className="modal-body">
                             <form className='form-horizontal'>
                                 <div className='row'>
                                     <div className='col-md-6 col-sm-12'>
@@ -337,7 +337,7 @@ const ManageUser = () => {
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                         <div className='mb-3'>
@@ -348,7 +348,7 @@ const ManageUser = () => {
                                 
                             </form>
                         </div>
-                        <div class="modal-footer">
+                        <div className="modal-footer">
                             <button type="button" data-bs-dismiss="modal" className='btn common-button'>Save</button>
                         </div>
                     </div>

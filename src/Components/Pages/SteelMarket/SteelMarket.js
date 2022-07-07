@@ -14,15 +14,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -35,15 +35,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -56,15 +56,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -77,15 +77,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -98,15 +98,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -119,15 +119,15 @@ const SteelMarket = () =>{
                         <div className="col-md-6 col-sm-12">
                             <div className="card mb-4">
                                 <div className="card-body">
-                                    <img src="Images/steel.jpg" className="img-fluid" alt="logo" />
+                                    <img src="./../../../.././Images/steel.jpg" className="img-fluid" alt="logo" />
                                     <h5 className="mt-3">Sed ut perspiciatis</h5>
                                     <p>
                                         Use .card-title to add card titles to any heading element. The .card-text class is used to remove bottom margins for.
                                     </p>
                                     <div className="footer">
                                         <div className="status">
-                                            <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                            <div className="form-check form-switch">
+                                                <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                             </div>
                                             <FaTrashAlt />
                                         </div>
@@ -151,8 +151,8 @@ const SteelMarket = () =>{
                                 </p>
                                 <div className="footer">
                                     <div className="status">
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                         </div>
                                         <FaTrashAlt />
                                     </div>
@@ -170,8 +170,8 @@ const SteelMarket = () =>{
                                 </p>
                                 <div className="footer">
                                     <div className="status">
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                         </div>
                                         <FaTrashAlt />
                                     </div>
@@ -189,8 +189,8 @@ const SteelMarket = () =>{
                                 </p>
                                 <div className="footer">
                                     <div className="status">
-                                        <div class="form-check form-switch">
-                                            <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                        <div className="form-check form-switch">
+                                            <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                         </div>
                                         <FaTrashAlt />
                                     </div>
@@ -223,7 +223,7 @@ const SteelMarket = () =>{
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                     </div>

@@ -30,8 +30,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>
@@ -59,8 +59,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>
@@ -88,8 +88,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>
@@ -117,8 +117,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>
@@ -146,8 +146,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>
@@ -175,8 +175,8 @@ const GuestLecture = () => {
                                     <p>Posted: 1 day ago</p>
                                 </div>
                                 <div className="delete">
-                                    <div class="form-check form-switch">
-                                        <input class="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
+                                    <div className="form-check form-switch">
+                                        <input className="form-check-input" type="checkbox" id="mySwitch" name="darkmode" value="yes" defaultChecked />
                                     </div>
                                     <FaTrashAlt />
                                 </div>

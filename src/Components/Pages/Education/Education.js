@@ -14,7 +14,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -42,7 +42,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -70,7 +70,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -98,7 +98,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -126,7 +126,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -154,7 +154,7 @@ const Education = () => {
                         <div className="card-body">
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
-                                    <img src="Images/education.jpg" alt="education"/>
+                                    <img src="./../../../.././Images/education.jpg" alt="education"/>
                                 </div>
                                 <div className="col-md-8 col-sm-12">
                                     <p className="header">
@@ -199,7 +199,7 @@ const Education = () => {
                                     </div>
                                     <div className='col-md-6 col-sm-12'>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                     </div>

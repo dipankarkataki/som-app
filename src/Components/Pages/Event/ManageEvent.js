@@ -7,7 +7,7 @@ const ManageEvent = () => {
                 <button type="button" data-bs-toggle="modal" data-bs-target="#addNewEvent" className='btn common-button'>ADD NEW</button>
             </div>
             <div className='event-list mb-4'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>
@@ -40,7 +40,7 @@ const ManageEvent = () => {
                 </div>
             </div>
             <div className='event-list mb-4'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>
@@ -73,7 +73,7 @@ const ManageEvent = () => {
                 </div>
             </div>
             <div className='event-list mb-3'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>
@@ -106,7 +106,7 @@ const ManageEvent = () => {
                 </div>
             </div>
             <div className='event-list mb-3'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>
@@ -139,7 +139,7 @@ const ManageEvent = () => {
                 </div>
             </div>
             <div className='event-list mb-3'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>
@@ -172,7 +172,7 @@ const ManageEvent = () => {
                 </div>
             </div>
             <div className='event-list mb-3'>
-                <img src="Images/event.jpg" alt="event"/>
+                <img src="./../../../.././Images/event.jpg" alt="event"/>
                 <div className="event-description">
                     <div className="date-status-div mb-1">
                         <div className='date'>

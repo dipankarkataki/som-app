@@ -93,9 +93,9 @@ const Inquiries = () => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore.
                             </p>
-                            <div class="input-group mb-3">
+                            <div className="input-group mb-3">
                                 <input type="text" class="form-control mt-3" placeholder="Message here..." />
-                                <button class="btn btn-success mt-3" type="submit">
+                                <button className="btn btn-success mt-3" type="submit">
                                     <FaTelegramPlane />
                                 </button>
                             </div>

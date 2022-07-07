@@ -14,7 +14,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -40,7 +40,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -66,7 +66,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -92,7 +92,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -118,7 +118,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -144,7 +144,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
@@ -170,7 +170,7 @@ const ManageProduct = () => {
                         <div className="card manage-product-card mb-3">
                             <div className="card-body">
                                 <div className="manage-product-content">
-                                    <img src="Images/product.jpg" className="img-fluid" alt="avatar" />
+                                    <img src="./../../../.././Images/product.jpg" className="img-fluid" alt="avatar" />
                                 </div>
                                 <div className="manage-product-content-details pt-2">
                                     <h5>Acel Electronics</h5>
