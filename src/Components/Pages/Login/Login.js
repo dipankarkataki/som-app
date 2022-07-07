@@ -21,11 +21,11 @@ const Login = () => {
                     </div>
                     <div className="mb-3">
                         <label htmlFor="Email">Email Address</label>
-                        <input type="email" name="email" className="form-control" id="email" />
+                        <input type="email" name="email" className="form-control" defaultValue="example@xyz.com" id="email" />
                     </div>
                     <div className="mb-3">
                         <label htmlFor="Password">Password</label>
-                        <input type="password" name="password" className="form-control" id="password" />
+                        <input type="password" name="password" className="form-control" defaultValue="password" id="password" />
                     </div>
                     <div className="mb-3 form-check">
                         <input type="checkbox" name="keepMeLoggedIn"  className="form-check-input" id="keepMeLoggedIn" />

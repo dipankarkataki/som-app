@@ -15,7 +15,7 @@ const CMS = () => {
                             <div className="col-md-7 col-sm-12">
                                 <div className="mb-2">
                                     <label className="form-label">Main Header:</label>
-                                    <input type="text" name="mainHeader" Placeholder="Type here..." className="form-control"/>
+                                    <input type="text" name="mainHeader" placeholder="Type here..." className="form-control"/>
                                 </div>
                                 <div className="mb-2">
                                     <textarea name="contentAboutUs" rows="4"  className="form-control" placeholder="Content here..."></textarea>
@@ -39,7 +39,7 @@ const CMS = () => {
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="mb-2">
                                     <label className="form-label">Main Header:</label>
-                                    <input type="text" name="helpMainHeader" Placeholder="Type here..." className="form-control"/>
+                                    <input type="text" name="helpMainHeader" placeholder="Type here..." className="form-control"/>
                                 </div>
                                 <div className="mb-2">
                                     <textarea name="contentHelp" rows="4"  className="form-control" placeholder="Content here..."></textarea>
@@ -52,7 +52,7 @@ const CMS = () => {
                             <div className="col-lg-4 col-md-6 col-sm-12">
                                 <div className="mb-2">
                                     <label className="form-label">Main Header:</label>
-                                    <input type="text" name="helpMainHeader" Placeholder="Type here..." className="form-control"/>
+                                    <input type="text" name="helpMainHeader" placeholder="Type here..." className="form-control"/>
                                 </div>
                                 <div className="mb-2">
                                     <textarea name="contentHelp" rows="4"  className="form-control" placeholder="Content here..."></textarea>
@@ -65,7 +65,7 @@ const CMS = () => {
                             <div className="col-lg-4 col-md-12 col-sm-12">
                                 <div className="mb-2">
                                     <label className="form-label">Main Header:</label>
-                                    <input type="text" name="helpMainHeader" Placeholder="Type here..." className="form-control"/>
+                                    <input type="text" name="helpMainHeader" placeholder="Type here..." className="form-control"/>
                                 </div>
                                 <div className="mb-2">
                                     <textarea name="contentHelp" rows="4"  className="form-control" placeholder="Content here..."></textarea>
@@ -86,7 +86,7 @@ const CMS = () => {
                             <div className="col-md-7 col-sm-12">
                                 <div className="mb-2">
                                     <label className="form-label">Main Header:</label>
-                                    <input type="text" name="helpMainHeader" Placeholder="Type here..." className="form-control"/>
+                                    <input type="text" name="helpMainHeader" placeholder="Type here..." className="form-control"/>
                                 </div>
                                 <div className="mb-2">
                                     <textarea name="contentHelp" rows="4"  className="form-control" placeholder="Content here..."></textarea>

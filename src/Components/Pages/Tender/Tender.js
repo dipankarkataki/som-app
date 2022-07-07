@@ -217,7 +217,7 @@ const Tender = () => {
                                             <input type="text" name="tenderValue" className="form-control" placeholder="500000" />
                                         </div>
                                         <div className='mb-3'>
-                                            <label class="form-label">Images</label>
+                                            <label className="form-label">Images</label>
                                             <input type="file" name="image" className="form-control" placeholder="User name" />
                                         </div>
                                     </div>
